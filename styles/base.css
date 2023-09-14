@@ -34,7 +34,7 @@ header h1 {
 /*Navigation*/
 
 nav {
-    background-color: rgb(248, 45, 45);
+    background-color: rgb(243, 72, 72);
 }
 
 nav ul {
@@ -122,12 +122,7 @@ footer {
 
 footer p {
     color: #ffffff;
-    margin: 3px;
-}
-
-footer img {
-    height: 35px;
-    padding-left: 15px;
+    margin: 8px;
 }
 
 #updated {
