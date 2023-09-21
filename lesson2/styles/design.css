@@ -44,7 +44,8 @@ section {
 h2 {
     color: navy;
     grid-column: 1/3;
-    text-align: center;
+    column-span: all;
+    text-align: left;
 }
 
 h3 {
