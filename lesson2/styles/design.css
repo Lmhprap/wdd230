@@ -5,14 +5,14 @@
 }
 
 body {
-    font-family: Roboto, helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 1rem;
 }
 
 header,
 main,
 footer {
-    max-width: 760px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ h3 {
 .callout {
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: #000;
-    background-color: #eee;
+    background-color: rgb(79, 156, 228);
     grid-column: 1/3;
     padding: 1rem;
 }
@@ -63,5 +63,5 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding: .5rem 0;
     font-size: smaller;
-    text-align: center;
+    text-align: left;
 }
