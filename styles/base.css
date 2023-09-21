@@ -27,7 +27,7 @@ header {
 }
 
 header h1 {
-    color: #dbdce0;
+    color: white;
     padding: 20px;
 }
 
@@ -35,7 +35,7 @@ header h1 {
 /*Navigation*/
 
 nav {
-    background-color: rgb(82, 135, 102);
+    background-color: rgb(97, 163, 244);
     border-radius: 5px;
 }
 
@@ -124,13 +124,12 @@ footer {
 }
 
 footer p {
-    color: #ffffff;
+    color: white;
     margin: 3px;
     font-size: 15px;
 }
 
 footer a:hover {
     color: rgb(12, 0, 0);
-    font-weight: bold;
     text-decoration-color: rgb(204, 50, 53);
 }
