@@ -21,9 +21,8 @@ header {
 .profile-pic {
     width: 100px;
     margin: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 0 0 6px 6px white;
-    justify-self: end;
 }
 
 header h1 {
@@ -112,11 +111,10 @@ h2:after {
 }
 
 .map {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-column: 1/2;
     border-radius: 10px;
     margin-bottom: 5px;
-    column-span: all;
+    width: 100%;
 }
 
 
