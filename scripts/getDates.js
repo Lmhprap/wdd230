@@ -13,7 +13,6 @@ try {
     console.log("Error with code or your browser does not support Locale");
 }
 
-
 let last = document.lastModified;
 let date = new Date(last);
 let hours = date.getHours();

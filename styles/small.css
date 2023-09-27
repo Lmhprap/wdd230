@@ -4,7 +4,7 @@
     font-size: 1.5rem;
     border: 1px solid rgba(0, 0, 0, .3);
     padding: 3px 7px 6px;
-    background-color: #eee;
+    background-color: white;
     color: #000;
     position: relative;
     float: right;
@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    background-color: rgb(23, 111, 219);
+    background-color: rgb(10, 91, 29);
     border-radius: 5px;
 }
 
