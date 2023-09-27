@@ -111,6 +111,14 @@ h2:after {
     padding: 1px;
 }
 
+.map {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    column-span: all;
+}
+
 
 /* Footer */
 
