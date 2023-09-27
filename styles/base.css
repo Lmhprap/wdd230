@@ -35,7 +35,7 @@ header h1 {
 /*Navigation*/
 
 nav {
-    background-color: rgb(97, 163, 244);
+    background-color: rgb(23, 111, 219);
     border-radius: 5px;
 }
 
@@ -48,8 +48,8 @@ nav ul {
     font-weight: bold;
 }
 
-nav li a {
-    display: block;
+.navigation li a {
+    display: block!important;
     color: black;
     padding: 5px;
     text-decoration: none;
@@ -109,6 +109,14 @@ h2:after {
 
 .card li {
     padding: 1px;
+}
+
+.map {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    column-span: all;
 }
 
 

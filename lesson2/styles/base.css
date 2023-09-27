@@ -1,18 +1,33 @@
     @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
     body {
-        padding: 35px;
+        padding: 10px;
         font-family: 'Mooli', sans-serif;
-        max-width: 1475px;
-        margin: auto;
+        max-width: 900px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     header {
         display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
         background-color: rgb(151, 66, 74);
         border-radius: 15px;
         color: #ffffff;
+    }
+    
+    .profile-pic {
+        width: 100px;
+        margin: 25px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.75);
+        justify-self: end;
+    }
+    
+    header h1 {
+        color: #dbdce0;
+        padding: 20px;
     }
     
     main {

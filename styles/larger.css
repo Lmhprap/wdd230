@@ -4,12 +4,6 @@
     body {
         width: 750px;
     }
-    nav ul {
-        display: flex;
-    }
-    nav ul li {
-        flex: 1 1 100%;
-    }
     main {
         grid-template-columns: 2fr 1fr;
         grid-gap: 1rem;
@@ -19,5 +13,15 @@
     }
     section {
         height: 100%;
+    }
+    #menu {
+        display: none;
+    }
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
     }
 }
