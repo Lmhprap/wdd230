@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@200&display=swap');
+main {
+    margin: 0.5em;
+    padding: 0.5rem;
+    background-color: #C3CAD0;
+}
+
+body {
+    max-width: 960px;
+    font-size: 16px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: #1b71bc;
+    font-family: 'Lato', sans-serif;
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+h1 {
+    font-size: 45px;
+    margin: auto;
+    color: black;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Lato', cursive;
+    color: #0b0c0c;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.colors {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #4D4D4D;
+    color: whitesmoke;
+}
+
+.colors td {
+    width: 50%;
+    height: 3rem;
+    border: 5px solid black;
+}
+
+.primary {
+    background-color: #C3CAD0;
+}
+
+.secondary {
+    background-color: #1b71bc
+}
+
+.accent1 {
+    background-color: whitesmoke;
+}
+
+.accent2 {
+    background-color: #153F65;
+}
+
+.accent3 {
+    background-color: #1b71bc;
+}
+
+a {
+    color: #1b71bc;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding-top: 5em;
+}
+
+nav {
+    background-color: #e0ebe5;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-size: .90em;
+    box-shadow: 5px 5px 5px black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: .90em;
+    font-weight: bold;
+}
+
+nav li a {
+    background-color: #4db9d1;
+    color: #FFCF3D;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-family: 'Lato', sans-serif;
+}
+
+nav a:link,
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.navigation li a {
+    display: block!important;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1b71bc;
+    color: #FFCF3D;
+    padding: rem;
+    text-align: center;
+    margin: 0.5rem;
+}

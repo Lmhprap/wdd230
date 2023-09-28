@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    width: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 6px white;
+}
+
+header h1 {
+    color: white;
+    padding: 20px;
+}
+
+
+/*Navigation*/
+
+nav {
+    background-color: rgb(23, 111, 219);
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: .90em;
+    font-weight: bold;
+}
+
+.navigation li a {
+    display: block!important;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: whitesmoke;
+    color: #000000;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    align-items: center;
+}
+
+main li a:hover {
+    color: rgb(12, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    /*text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);*/
+}
+
+h2:after {
+    content: " ";
+    display: block;
+    border: 1px solid blue;
+}
+
+
+/*Card*/
+
+.card {
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.card h3 {
+    background-color: black;
+    border-radius: 5px;
+    color: #dbdce0;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.card li {
+    padding: 1px;
+}
+
+.map {
+    grid-column: 1/2;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+
+/* Footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+footer p {
+    color: white;
+    margin: 3px;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: rgb(12, 0, 0);
+    text-decoration-color: rgb(204, 50, 53);
+}
