@@ -40,6 +40,10 @@
     color: #fff;
 }
 
+.navigation li a::before {
+    content: "😎";
+}
+
 .navigation li a:hover {
     background-color: #bbb;
     color: #333;
