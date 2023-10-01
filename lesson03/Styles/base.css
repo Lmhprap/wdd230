@@ -17,7 +17,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #1b71bc;
+    background-color: #153F65;
     font-family: 'Lato', sans-serif;
     margin: 0.5rem;
     padding-top: 0.5rem;
@@ -33,7 +33,7 @@ img {
 h1 {
     font-size: 45px;
     margin: auto;
-    color: black;
+    color: white;
 }
 
 h2,
