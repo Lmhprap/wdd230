@@ -110,14 +110,7 @@ h2:after {
     padding: 1px;
 }
 
-.map {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    ;
-}
+
 
 .google-map {
     padding-bottom: 50%;
