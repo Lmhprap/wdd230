@@ -164,8 +164,21 @@ nav a:hover {
 
 footer {
     background-color: #1b71bc;
-    color: #FFCF3D;
-    padding: rem;
+    color: #ff3d3d;
+    padding: 10px;
     text-align: center;
     margin: 0.5rem;
+    font-weight: bold;
+}
+
+
+footer p {
+    color: white;
+    margin: 3px;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: rgb(188, 182, 182);
+    text-decoration-color: rgb(204, 50, 53);
 }
