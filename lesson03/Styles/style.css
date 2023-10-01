@@ -1,0 +1,168 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Patrick+Hand&family=Rock+Salt&display=swap');
+
+
+#background { 
+    height: 725px;
+    background-color:rgb(199, 200, 203);
+}
+header {
+    background-color:#e13030;
+}
+body {
+    margin: 0;
+    background-color:rgb(234, 225, 213);
+    font-family: Rock Salt, Aerial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 25px;
+}
+
+.book, .join {
+    background-color:rgb(175, 179, 189);
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 5px 25px;  
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #0a0a09;
+}
+.book:hover, .join.hover {
+    background-color:#c5bfbf;
+}
+footer {
+    background-color:#d4d6e0;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    background-color:#d4d6e0;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+footer a:hover {
+    font-size: 1.4em;
+    text-decoration: underline;
+  }
+
+footer p {
+    padding: 25px 50px;
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+    margin: 0 auto;
+}
+footer p a:hover {
+    font-size: 1.2em;
+    text-decoration: underline
+}
+footer social img {
+    padding-top: 25px;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    padding: 0px;
+    text-align: center;
+    color: #f9f4f4;
+    text-decoration: none;
+    margin: 35px;
+    line-height: 1.5em;
+}
+nav a:hover {
+    text-align: center;
+    background-color: rgb(19, 19, 20);
+    text-decoration: none;       
+}
+.msg {
+    background-color:rgb(201, 202, 204);
+    line-height: 1.5em;
+    padding: 35px;
+}
+ 
+.msg h2 {
+    background-color:#dfe0e4;
+    margin: 0;
+    line-height: 1.5;
+    font-family: Rock Salt, Neucha, sans-serif;   
+}
+.msg p {
+    background-color:rgb(246, 111, 111);
+    font-size: .9em;
+    padding-bottom: 5px;
+    font-family: Rock Salt, Neucha, sans-serif;
+ 
+}
+#hero-img { 
+    max-width: 100%;
+}
+
+#hero { 
+    text-align: center;
+    max-width: 100%;
+}
+#hero h1 { 
+    text-align: center;
+    margin: 50px 0;
+}
+#hero h4 {
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+    padding: 10px;
+}
+.logo {
+    width: 80px;
+   }
+#logo_link {
+    padding-top: 5px;
+}
+
+.button-box a {
+    background-color: #e0e0e0;
+    border: 0;
+ }
+.button-box {
+    text-align: center;
+ }
+main section {
+    text-align: center;
+}  
+.home-title {  
+    background-color: rgb(19, 18, 18);
+    color: #fbf7f2;
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: Neucha, Patrick Hand, sans-serif;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+main section img {
+    box-sizing: border-box;
+}
+.mountains {
+    margin: 200px 0;
+}
+
+
+
+ 
