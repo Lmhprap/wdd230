@@ -76,6 +76,7 @@ main li a:hover {
 
 h2 {
     text-align: center;
+    
 }
 
 h2:after {
@@ -113,12 +114,12 @@ h2:after {
 
 
 
-.map {
+.google-map {
     padding-bottom: 50%;
     position: relative;
 }
 
-.map iframe {
+.google-map iframe {
     height: 100%;
     width: 100%;
     left: 0;
