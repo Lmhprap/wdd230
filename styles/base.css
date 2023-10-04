@@ -121,6 +121,7 @@ h2:after {
     left: 0;
     top: 0;
     position: absolute;
+    border-radius: 10px;
 }
 
 
