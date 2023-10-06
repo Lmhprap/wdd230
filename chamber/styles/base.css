@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+    --primary-color: #153f65;
+    --secondary-color: #1b71bc;
+    --accent1-color: #c3cad0;
+    --accent2-color: #c3cad0;
+    --heading-font: 'Lato', Arial, Helvetica, sans-serif;
+    --paragraph-font: Arial, Helvetica, sans-serif;
+    --headline-color-on-white: #000000;
+    /* headlines on a white background */
+    --headline-color-on-color: #fff;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #000;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #fff;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #283618;
+    --nav-link-color: #fff;
+    --nav-background-color: #1b71bc;
+    --nav-hover-link-color: #fff;
+    --nav-hover-background-color: #bc6c25;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--paragraph-font);
+}
+
+body {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--heading-font);
+}
+
+.logo {
+    width: 115px;
+    height: 115px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--headline-color-on-color);
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 0px 20px;
+}
+
+.menu {
+    grid-column: 1/4;
+}
+
+header div {
+    display: flex;
+    flex-flow: row;
+}
+
+header div #datetime {
+    background-color: rgba(0, 0, 0, .30);
+    color: #fff;
+    padding: 6px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 1.2rem;
+}
+
+.date-hdr {
+    grid-column: 1/4;
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.1rem;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    padding: .5rem;
+    color: black;
+}
+
+header div button,
+a {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    padding: 0px 5px;
+}
+
+.vanCC-name {
+    padding: 10px 10px;
+}
+
+header div a {
+    margin: 1.5rem;
+}
+
+header .social a {
+    margin: 0;
+}
+
+header div nav ul {
+    list-style-type: none;
+    flex: auto;
+    padding: 0;
+    margin: 0;
+}
+
+header div nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header div nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
+
+header div nav ul li.active a {
+    background-color: var(--accent2-color);
+    color: #000;
+}
+
+header div nav ul li a:hover {
+    background-color: rgba(0, 0, 0, .30);
+    color: #fff;
+}
+
+header div nav ul {
+    display: none;
+}
+
+header div nav ul.open {
+    display: block;
+}
+
+#hamburger span:nth-child(1) {
+    display: block
+}
+
+#hamburger span:nth-child(2) {
+    display: none
+}
+
+#hamburger.open span:nth-child(1) {
+    display: none
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    font-size: 1.0rem;
+    padding: 1.0rem;
+}
+
+header div {
+    width: 100%;
+}
+
+header div nav {
+    width: 100%;
+}
+
+.hero,
+.news,
+.join,
+.event,
+.weather {
+    background-color: #eeeeee;
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+    height: 100px;
+}
+
+aside {
+    background-color: #eeeeee;
+    border: 2px solid #bbbbbb;
+    padding: 20px;
+}
+
+.contact {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact p {
+    padding: 5px;
+}
+
+.contact a {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.spotlight1,
+.spotlight2 {
+    background-color: #eeeeee;
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+    height: 100px;
+}
+
+.spotlight3 {
+    display: none;
+}
+
+.name-footer h2 {
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.name-footer p {
+    color: #fff;
+    font-size: 15px;
+    padding: 0px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.foot-hr {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.otherinfo {
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+.contact a:hover {
+    color: rgb(237, 245, 10);
+    text-decoration-color: rgb(204, 50, 53);
+}
+
+.sociallogo {
+    width: 30px;
+    border-radius: 10px;
+}
