@@ -74,7 +74,7 @@ header div #datetime {
     font-size: 1.2rem;
 }
 
-.date-hdr {
+.date-header {
     grid-column: 1/4;
 }
 
