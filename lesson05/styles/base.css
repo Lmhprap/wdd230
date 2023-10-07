@@ -19,7 +19,7 @@ h1 {
 
 main {
     margin: 1rem auto;
-    border: px solid rgba(0, 0, 0, 0.1);
+    border: 3px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #ddd;
     display: flex;
