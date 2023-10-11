@@ -152,10 +152,10 @@ footer a:hover {
 }
 
 .hero {
-    margin: 10px auto;
+    margin: -21px auto;
     position: relative;
     border: 1px solid rgba(0, 0, 0, .1);
-    height: 325px;
+    height: 360px;
 }
 
 .hero img {
