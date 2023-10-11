@@ -92,6 +92,10 @@ h2:after {
     margin-bottom: 5px;
 }
 
+.card a {
+    font-size: small;
+}
+
 .card h3 {
     background-color: black;
     border-radius: 5px;
