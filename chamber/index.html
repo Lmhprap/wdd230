@@ -8,11 +8,11 @@
     <title>Robert Phelps - WDD 230 - Irvine, California Chamber of Commerce</title>
     <meta name="description" content="Irvine, California Chamber of Commerce.">
     <meta name="author" content="Robert A. Phelps">
+    <link rel="icon" href="irv-favicon.ico">
     <meta name="og:title" content="Irvine California Chamber of Commerce">
     <meta name="og:type" content="Website">
     <meta name="og:image" content="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/styles/welcome_image/public/vc_irvine_irvinespectrumcenter_st_rm_486307227_1280x640.jpg">
     <meta name="og:url" content="http://lmhprap.github.io/wdd230/chamber/index.html">
-    <link rel="icon" href="irv-favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -33,15 +33,17 @@
         </div>
 
         <div>
-            <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+            <button id="hamburger">
+        <span class=""hamburger"><span class="hamburger">☰</span> 
+        <span class=""hamburger">X</span>
         </div>
         <div class="menu">
             <nav>
                 <ul id="primaryNav">
-                    <li class="active"><a href="index.html">Discover</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="membership.html">Membership</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -51,42 +53,99 @@
 
 
     </header>
-    <main>
-        <div class="hero">Hero with site name and call to action</div>
-        <div class="event">Event</div>
-        <div class="weather">Weather</div>
-        <div class="news">News Release</div>
-        <div class="join">Join</div>
+    <div id="mode">
+        
+    </div>
+    <main class="home">
+        <div class="hero">
+            <picture>
+                <source srcset="images/gettyimages-1238854642-2048x2048.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/gettyimages-1238854642-2048x2048.jpg" media="(min-width: 800px)">
+                <img class="banner" src="images/gettyimages-1238854642-2048x2048.jpg" alt="Irvine California">
+            </picture>
+            <h1 class="hero-banner">Welcome to the Irvine<br>Chamber of Commerce</h1>
+            <form action="join.html"><button class="call-to-action" type="submit">Join the Chamber</button></form>
+        </div>
+        <div class="event">
+            <img src="images/Harvesters-Logo-2015.webp" alt="31st Annual Harvesters Fashion Show & Luncheon">
+            <p class="large">Harvest Fashion Show</p>
+            <p class="medium">Fashion Show</p>
+            <p>The Greater Irvine Chamber offers more than 400 events each year, including signature events, council and committee meetings, community outreach activities, lead generation groups, professional development workshops, and social and networking
+                gatherings. Through these activities, Greater Irvine Chamber members have exclusive opportunities to reach and connect with hundreds of fellow members, the local business community, community leaders, and elected officials from the City
+                of Irvine, Orange County, Sacramento, and Washington D.C. All employees from member companies are eligible for participation..<br><a href="#">more info...</a></p>
+        </div>
+        <div class="weather">
+            <div id="weather-info">
+            </div>
+        </div>
+        <div class="news">
+            <p class="large">📰 Local News Releases</p>
+            <p><b>Irvine, CA-</b> rvine City Council members approved a $25 million expansion to their animal care shelter with no discussion on Tuesday night after years of delays that would also reduce the total number of kennels available.<br> The shelter’s
+                expansion will add a new clinic, renovations for the administration building and allow for sick animals to be separated from healthy ones, a major milestone for the shelter according to the city staff report.
+                <br>But while the proposal is set to add nearly 10,000 square feet to the facility, it will also reduce the total number of kennels at the shelter, dropping 30 kennels and leaving just over 100 spots available in the facility’s storage,
+                according to the staff report.</br>
+            </p>
+        </div>
+        <div class="join">
+            <form action="join.html"><button class="join-us" type="submit">Join Us!</button></form>
+            <p>We invite you to be part of one of the most influential Chambers in America and one of the largest in Orange County. Our mission is to advance the economic vitality of greater Irvine. Every day we work to support an economic climate that strengthens
+                the competitiveness of businesses, just like yours..</p>
+            </br>
+            </p>
+        </div>
 
         <aside class="aside">
-            <div class="spotlight1">Spotlight #1</div>
-            <div class="spotlight2">Spotlight #2</div>
-            <div class="spotlight2">Spotlight #3</div>
+            <div class="spotlight" id="spotlight1">
+                <section class="text-center spotlight">
+                    <img src="images/chapman-university-logo-37459.jpeg" alt="Champman University">
 
-        </aside>
-    </main>
-    <footer>
-        <div class="logo-footer">
-            <img class="logo-footer" src="images/irv-logo.png" alt="Irvine Chamber of Commerce Logo">
-        </div>
-        <div class="name-footer">
-            <h2>Irvine California<br>Chamber of Commerce</h2>
-            <p>333 Irvine Center Drive<br>Irvine, CA 12345</p>
-        </div>
-        <div class="contact">
-            <p>Email:rphelps@gmail.com</p>
-            <p>Phone #: 123-456-7891</p>
-            <p><a href="https://www.google.com/maps/place/Irvine,+CA/@33.6866371,-117.8559614,12z/data=!3m1!4b1!4m6!3m5!1s0x80dcdd0e689140e3:0xa77ab575604a9a39!8m2!3d33.6845673!4d-117.8265049!16zL20vMGQ3azF6?entry=ttu" target="_blank"> 📌Find Us</a></p>
-        </div>
-        <div class="foot-hr">
-            <hr>
-        </div>
-        <div class="otherinfo">
-            &copy;<span id="copyright"></span> Irvine California Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Robert A. Phelps&nbsp;&nbsp; |&nbsp;&nbsp;WDD 230 Chamber Project&nbsp;&nbsp;|&nbsp;&nbsp;
-            <p> Last Modified:<span id="dateModified"></span></p>
-        </div>
-    </footer>
-    <script src="scripts/script.js"></script>
+                    <aside class="aside">
+                        <div class="spotlight" id="spotlight2">
+                            <section class="text-center spotlight">
+                                <img src="images/academic-signature-left.jpg" alt="Champman University">
+
+                            </section>
+                        </div>
+
+                        <div class="spotlight" id="spotlight3">
+                            <section class="text-center spotlight">
+                                <h2>spotlight</h2>
+                            </section>
+                        </div>
+
+
+                        <div class="spotlight" id="spotlight3">
+                            <section class="text-center spotlight">
+                                <h2>spotlight</h2>
+                            </section>
+                        </div>
+                    </aside>
+                    </main>
+                    <footer>
+                        <div class="logo-footer">
+                            <img class="logo-footer" src="images/irv-logo.png" alt="Irvine Chamber of Commerce Logo">
+                        </div>
+                        <div class="name-footer">
+                            <h2>Irvine California<br>Chamber of Commerce</h2>
+                            <p>333 Irvine Center Drive<br>Irvine, CA 12345</p>
+                        </div>
+                        <div class="contact">
+                            <p>Email:rphelps@gmail.com</p>
+                            <p>Phone #: 123-456-7891</p>
+                            <p><a href="https://www.google.com/maps/place/Irvine,+CA/@33.6866371,-117.8559614,12z/data=!3m1!4b1!4m6!3m5!1s0x80dcdd0e689140e3:0xa77ab575604a9a39!8m2!3d33.6845673!4d-117.8265049!16zL20vMGQ3azF6?entry=ttu" target="_blank"> 📌Find Us</a></p>
+                        </div>
+                        <div class="foot-hr">
+                            <hr>
+                        </div>
+                        <div class="otherinfo">
+                            &copy;<span id="copyright"></span> Irvine California Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Robert A. Phelps&nbsp;&nbsp; |&nbsp;&nbsp;WDD 230 Chamber Project&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <p> Last Modified:<span id="dateModified"></span></p>
+                        </div>
+                    </footer>
+                    <script src="scripts/script.js"></script>
+                    <script src="scripts/windchill.js"></script>
+                    <script src="scripts/darkmode.js"></script>
+                    <script src="scripts/spotlight.js"></script>
 
 
 </body>
