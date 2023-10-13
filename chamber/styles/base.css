@@ -74,7 +74,7 @@ header,
 nav,
 main,
 footer {
-    max-width: 1300px;
+    max-width: 1400px;
     min-width: 350px;
     margin: 0 auto;
 }
@@ -181,14 +181,14 @@ h2 {
     margin: 0;
 }
 
-.IVCC-name {
-    padding: 10px 10px;
+.irvcc {
+    padding: 15px 15px;
 }
 
 .name-footer h2 {
     color: #fff;
     padding: 10px 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .name-footer p {
