@@ -26,7 +26,7 @@ button.onclick = function() {
 
     const inputvalue = () => {
         if (myItem == null || myItem.length == 0 || /^\s+$/.test(myItem)) {
-            alert('[ERROR] The form field cannot be empty');
+            alert('[ERROR] The "Enter Book and Chapter" field cannot be empty');
             list.removeChild(listItem);
             return false;
         }
