@@ -1,4 +1,4 @@
-@media (min-width: 100px) {
+@media (min-width: 620px) {
     aside {
         display: flex;
         flex-direction: row;

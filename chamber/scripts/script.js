@@ -1,3 +1,5 @@
+const today = new Date().getDay();
+
 try {
     let options = {
         year: "numeric",
@@ -28,12 +30,12 @@ try {
 }
 
 
-
+// Hamburger Menu
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburger").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
 }
 
-const x = document.getElementById("hamburger");
+const x = document.getElementById("hamburgerBtn");
 
 x.onclick = toggleMenu;

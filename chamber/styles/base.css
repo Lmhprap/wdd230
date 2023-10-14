@@ -261,16 +261,16 @@ header div nav ul.open {
 }
 
 .hamburger {
-    font-size: 45px;
+    font-size: 25px;
 }
 
 #hamburgerBtn span:nth-child(1) {
     display: block;
     color: #fff;
-    background-color: #283618;
+    background-color: blue;
     border-radius: 4px;
-    width: 48px;
-    height: 48px;
+    width: 30px;
+    height: 30px;
 }
 
 #hamburgerBtn span:nth-child(2) {
@@ -283,11 +283,13 @@ header div nav ul.open {
 
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
-    color: #fff;
-    background-color: #283618;
+    color: #eb0808;
+    background-color: blue;
     border-radius: 4px;
-    width: 48px;
-    height: 48px;
+    font: weight bolder;
+    ;
+    width: 30px;
+    height: 30px;
 }
 
 main {
