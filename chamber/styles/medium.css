@@ -49,15 +49,15 @@
         width: 35px;
     }
     .hamburger {
-        font-size: 30px;
+        font-size: 25px;
     }
     #hamburgerBtn span:nth-child(1) {
-        width: 35px;
-        height: 35px;
+        width: 28px;
+        height: 27px;
     }
     #hamburgerBtn.open span:nth-child(2) {
-        width: 35px;
-        height: 35px;
+        width: 28px;
+        height: 27px;
     }
     .join {
         grid-column: 1/4;
