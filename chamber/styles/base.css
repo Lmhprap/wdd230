@@ -984,10 +984,8 @@ body {
 
 main {
     margin: 0;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(224, 9, 9, 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #000;
 }
 
 main img {
@@ -998,10 +996,11 @@ main img {
 }
 
 #mode {
-    display: block;
+    display: flex;
     position: absolute;
     top: 1rem;
     right: 20rem;
     font-size: 2rem;
     cursor: pointer;
+    color: white;
 }
