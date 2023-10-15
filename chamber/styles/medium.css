@@ -124,10 +124,10 @@
         display: inline-block;
     }
     .name-footer h2 {
-        text-align: left;
+        text-align: center;
     }
     .name-footer p {
-        text-align: left;
+        text-align: center;
     }
     .discover {
         display: grid;
