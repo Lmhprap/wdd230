@@ -1,36 +1,34 @@
-const list = document.querySelector("ul");
-const input = document.querySelector("input");
-const button = document.querySelector("button");
+const __button = document.querySelector("button");
+const __input = document.querySelector("#favchap");
+const __list = document.querySelector("#list");
 
+let item;
+let button;
 
-button.onclick = function() {
-    let myItem = input.value;
-    input.value = "";
-
-    const listItem = document.createElement("li");
-    const listText = document.createElement("span");
-    const listBtn = document.createElement("button");
-
-    listItem.appendChild(listText);
-    listText.textContent = myItem;
-    listItem.appendChild(listBtn);
-    listBtn.textContent = "❌";
-    list.appendChild(listItem);
-
-    listBtn.onclick = function() {
-        list.removeChild(listItem);
-        input.focus();
+__button.addEventListener("click", () => {
+    if (/[a-z]/i.test(__input.value) == false || /[0-9]/.test(__input.value) == false) {
+        alert("Not a valid Chapter format")
+        __input.focus();
+        return
     }
 
-    input.focus();
+    item = document.createElement("li")
+    button = document.createElement("button")
 
-    const inputvalue = () => {
-        if (myItem == null || myItem.length == 0 || /^\s+$/.test(myItem)) {
-            alert('[ERROR] The "Enter Book and Chapter" field cannot be empty');
-            list.removeChild(listItem);
-            return false;
-        }
-    }
+    button.textContent = "❌";
+    item.textContent = __input.value;
 
-    inputvalue();
-}
+    item.appendChild(button);
+
+    button.addEventListener("click", (e) => {
+        removeEventListener("click", e.target)
+        e.target.parentElement.remove();
+        __input.value = '';
+        __input.focus();
+    });
+
+    __list.appendChild(item);
+    __input.value = '';
+    __input.focus();
+
+});
