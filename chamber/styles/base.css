@@ -557,18 +557,19 @@ figcaption {
 }
 
 .call-to-action {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
+    position: relative;
+    bottom: 55px;
+    right: -175px;
     padding: 12px;
-    min-width: 100px;
-    width: 50%;
+    min-width: 10px;
+    width: 25%;
     background-color: var(--accent2-color);
     border: none;
     border-radius: 3px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
+    resize: none;
 }
 
 .call-to-action:hover {
