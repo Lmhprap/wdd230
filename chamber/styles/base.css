@@ -74,7 +74,7 @@ header,
 nav,
 main,
 footer {
-    max-width: 1500px;
+    max-width: 1450px;
     min-width: 350px;
     margin: 0 auto;
 }
@@ -999,7 +999,7 @@ main img {
 
 #mode {
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 1rem;
     right: 20rem;
     font-size: 2rem;
