@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@1,300&display=swap');
+/* Global variables */
+
 :root {
-    --primary-color: #153F65;
-    --secondary-color: #1B71BC;
-    --accent1-color: #C3CAD0;
+    --primary-color: #283618;
+    --secondary-color: #606c38;
+    --accent1-color: #bc6c25;
     --accent2-color: #dda15e;
-    --heading-font: "Lato", Arial, Helvetica, sans-serif;
-    --paragraph-font: Roboto, Helvetica, sans-serif;
+    --heading-font: "Open Sans", Arial, Helvetica, sans-serif;
+    --paragraph-font: Arial, Helvetica, sans-serif;
     --headline-color-on-white: #000;
     /* headlines on a white background */
     --headline-color-on-color: #fff;
@@ -19,7 +19,7 @@
     --nav-link-color: #fff;
     --nav-background-color: #606c38;
     --nav-hover-link-color: #fff;
-    --nav-hover-background-color: #257dbc;
+    --nav-hover-background-color: #bc6c25;
 }
 
 * {
@@ -66,15 +66,15 @@ p.xlarge {
 }
 
 .logo {
-    width: 125px;
-    height: 100px;
+    width: 100px;
+    height: 65px;
 }
 
 header,
 nav,
 main,
 footer {
-    max-width: 1400px;
+    max-width: 1200px;
     min-width: 350px;
     margin: 0 auto;
 }
@@ -96,7 +96,6 @@ header {
 header div {
     display: flex;
     flex-flow: row;
-    width: 100%;
 }
 
 header div #datetime {
@@ -132,7 +131,7 @@ li {
     padding-bottom: 5px;
 }
 
-.date-header {
+.date-hdr {
     grid-column: 1/4;
 }
 
@@ -145,7 +144,6 @@ footer {
     font-size: 15px;
     color: white;
     padding: 20px;
-    width: 100%;
 }
 
 footer a {
@@ -156,7 +154,7 @@ footer a {
 }
 
 #chambermeet {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
     height: 50px;
@@ -183,14 +181,14 @@ h2 {
     margin: 0;
 }
 
-.irvcc {
+.vanCC-name {
     padding: 10px 10px;
 }
 
 .name-footer h2 {
     color: #fff;
     padding: 10px 0px;
-    text-align: left;
+    text-align: center;
 }
 
 .name-footer p {
@@ -263,16 +261,16 @@ header div nav ul.open {
 }
 
 .hamburger {
-    font-size: 25px;
+    font-size: 45px;
 }
 
 #hamburgerBtn span:nth-child(1) {
     display: block;
     color: #fff;
-    background-color: blue;
+    background-color: #283618;
     border-radius: 4px;
-    width: 30px;
-    height: 30px;
+    width: 48px;
+    height: 48px;
 }
 
 #hamburgerBtn span:nth-child(2) {
@@ -285,12 +283,11 @@ header div nav ul.open {
 
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
-    color: #eb0808;
-    background-color: blue;
+    color: #fff;
+    background-color: #283618;
     border-radius: 4px;
-    font-weight: bolder;
-    width: 30px;
-    height: 30px;
+    width: 48px;
+    height: 48px;
 }
 
 main {
@@ -318,7 +315,6 @@ header div nav {
     padding: 10px;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
 }
 
 .container {
@@ -381,7 +377,7 @@ header div nav {
     grid-column: 2/3;
     font-size: 22px;
     font-weight: bold;
-    color: #0f0f0e;
+    color: #bc6c25;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -558,11 +554,11 @@ figcaption {
 }
 
 .call-to-action {
-    position: relative;
-    bottom: 78px;
-    right: -125px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
     padding: 12px;
-    min-width: px;
+    min-width: 100px;
     width: 50%;
     background-color: var(--accent2-color);
     border: none;
@@ -656,8 +652,8 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #153F65;
-    color: white;
+    background-color: #bc6c25;
+    color: #000;
     font-weight: bold;
     border-radius: 6px;
     padding: 22px 22px;
@@ -667,7 +663,7 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: #153F65 solid 6px;
+    border-left: #bc6c25 solid 6px;
 }
 
 form label.top input:required:valid {
@@ -943,65 +939,4 @@ div.board figure picture img {
 
 .discovertext {
     line-height: 25px;
-}
-
-.otherinfo {
-    text-align: center;
-}
-
-.contact a {
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.contact a:hover {
-    color: white;
-    box-shadow: 0 5px 15px #afe0f5;
-}
-
-.social a:hover {
-    color: white;
-    box-shadow: 0 5px 15px #afe0f5;
-}
-
-.sociallogo {
-    width: 30px;
-    border-radius: 10px;
-}
-
-
-/*DarkMode*/
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Roboto, sans-serif;
-}
-
-main {
-    margin: 0;
-    border: 1px solid rgba(224, 9, 9, 0.2);
-    padding: 1rem;
-}
-
-main img {
-    float: left;
-    margin: 0 0 1rem 1rem;
-    border: 1px solid #333;
-    box-shadow: 0 0 15px #777;
-}
-
-#mode {
-    display: flex;
-    position: absolute;
-    top: 1rem;
-    right: 20rem;
-    font-size: 2rem;
-    cursor: pointer;
-    color: white;
 }

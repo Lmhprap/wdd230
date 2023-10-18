@@ -116,10 +116,9 @@
         resize: none;
     }
     #mode {
-        display: flex;
-        position: absolute;
-        top: 1rem;
-        right: 20rem;
+        display: absolute;
+        top: 2.5rem;
+        right: 23rem;
         font-size: 2rem;
         cursor: pointer;
         color: white;
