@@ -532,7 +532,7 @@ figcaption {
 /* Index Page Hero Image and CTA */
 
 .hero {
-    position: relative;
+    position: absolute;
     padding: 0px;
 }
 
