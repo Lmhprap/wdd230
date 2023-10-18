@@ -1,19 +1,20 @@
-    @media only screen and (min-width: 641px) {
-        body {
-            max-width: 1000px;
-        }
+@media only screen and (min-width: 641px) {
+    body {
+        max-width: 1000px;
     }
-    /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
-    
-    .open li {
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
+    .navigation {
+        flex-direction: column;
+    }
+    .navigation li a {
         display: block;
-        width: 100%;
+        flex: 1 1 100%;
+        color: #dbdce0;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
     }
-    
-    .open li a {
-        display: block;
-    }
-    
-    .hero picture {
-        width: 100%
-    }
+}
