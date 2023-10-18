@@ -4,21 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Styles/reponsive-images.css">
+    <title>Responsive Images - Lesson 06 Activity</title>
+
+    <meta name="description" content="WDD 230 - Lesson 06 - Responsive Images">
+    <meta name="author" content="Robert Phelps">
+
+    <!--Style Links-->
+    <link rel="stylesheet" href="styles/responsive-images.css">
+
+
 </head>
 
 <body>
     <main>
         <div class="hero">
             <picture>
-                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
-                <img src="images/hero-large.webp" alt="Mt. Timp Temple" width="1500" height="750">
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Mt. Timpagonos Temple" width="1500" height="750">
             </picture>
         </div>
     </main>
-
 </body>
 
 </html>
