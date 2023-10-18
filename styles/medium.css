@@ -1,0 +1,19 @@
+    @media only screen and (min-width: 641px) {
+        body {
+            max-width: 1000px;
+        }
+    }
+    /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+    
+    .open li {
+        display: block;
+        width: 100%;
+    }
+    
+    .open li a {
+        display: block;
+    }
+    
+    .hero picture {
+        width: 100%
+    }
