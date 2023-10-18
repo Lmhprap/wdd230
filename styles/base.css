@@ -1,227 +1,231 @@
-                                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-                            body {
-                                max-width: 1200px;
-                                width: 100%;
-                                margin-left: auto;
-                                margin-right: auto;
-                                min-width: min-content;
-                                margin-left: auto;
-                                margin-right: auto;
-                                font-family: "Roboto", sans-serif;
-                            }
-                            
-                            header {
-                                display: grid;
-                                grid-template-columns: 1fr 2fr;
-                                align-items: center;
-                                background-color: black;
-                                border-radius: 10px;
-                            }
-                            
-                            .profile-pic {
-                                width: 100px;
-                                margin: 20px;
-                                border-radius: 10px;
-                                box-shadow: 0 0 6px 6px white;
-                            }
-                            
-                            header h1 {
-                                color: white;
-                                padding: 20px;
-                            }
-                            /*Navigation*/
-                            
-                            nav {
-                                flex-direction: column;
-                                background-color: rgb(10, 91, 29);
-                                border-radius: 5px;
-                            }
-                            
-                            nav ul {
-                                list-style-type: none;
-                                margin: 0;
-                                padding: 0;
-                                text-align: center;
-                                font-size: .90em;
-                                font-weight: bold;
-                            }
-                            
-                            .navigation li a {
-                                display: block!important;
-                                color: black;
-                                padding: 5px;
-                                text-decoration: none;
-                                text-align: center;
-                            }
-                            
-                            nav li a:hover {
-                                background-color: whitesmoke;
-                                color: #000000;
-                            }
-                            
-                            main {
-                                display: grid;
-                                grid-template-columns: 1fr;
-                                padding: 20px;
-                            }
-                            
-                            main li a:hover {
-                                color: rgb(12, 0, 0);
-                                font-weight: bold;
-                                text-decoration: none;
-                            }
-                            
-                            h2 {
-                                text-align: center;
-                            }
-                            
-                            h2:after {
-                                content: " ";
-                                display: block;
-                                border: 1px solid blue;
-                            }
-                            /*Card*/
-                            
-                            .card {
-                                border: 1px solid blue;
-                                border-radius: 10px;
-                                margin-bottom: 5px;
-                            }
-                            
-                            .card a {
-                                font-size: small;
-                            }
-                            
-                            .card h3 {
-                                background-color: black;
-                                border-radius: 5px;
-                                color: #dbdce0;
-                                text-align: center;
-                                padding: 5px;
-                                margin-top: 0;
-                            }
-                            
-                            .card ul {
-                                list-style-type: none;
-                                padding: 10px;
-                            }
-                            
-                            .card li {
-                                padding: 1px;
-                            }
-                            
-                            .map {
-                                padding-bottom: 50%;
-                                position: relative;
-                            }
-                            
-                            .map iframe {
-                                height: 100%;
-                                width: 100%;
-                                left: 0;
-                                top: 0;
-                                position: absolute;
-                                border-radius: 10px;
-                            }
-                            /* Footer */
-                            
-                            footer {
-                                display: grid;
-                                grid-template-columns: 1fr;
-                                text-align: center;
-                                align-items: center;
-                                background-color: black;
-                                border-radius: 5px;
-                            }
-                            
-                            footer p {
-                                color: white;
-                                margin: 3px;
-                                font-size: 15px;
-                            }
-                            
-                            footer a:hover {
-                                color: rgb(12, 0, 0);
-                                text-decoration-color: rgb(204, 50, 53);
-                            }
-                            
-                            .hero {
-                                margin: 5px auto;
-                                position: relative;
-                                border: 1px solid rgba(0, 0, 0, .1);
-                                height: 650px;
-                            }
-                            
-                            .hero img {
-                                width: 100%;
-                                height: 100%;
-                                object-fit: cover;
-                            }
-                            
-                            .templelabel {
-                                position: absolute;
-                                top: 30px;
-                                left: 30px;
-                                background: radial-gradient(#fff, #4D5B97);
-                                border: 1px solid rgba(0, 0, 0, .75);
-                                padding: 1.5rem;
-                                box-shadow: 0 0 3rem #fff;
-                                opacity: 0.75;
-                            }
-                            
-                            .templelabel p {
-                                margin: 0;
-                                padding: .25rem;
-                                font-weight: 700;
-                                font-size: 15px;
-                                font-family: "Great Vibes", serif;
-                            }
-                            
-                            #menu {
-                                font-size: 1.5rem;
-                                padding: 3px 7px 6px;
-                                background-color: #153F65;
-                                color: #000;
-                                position: absolute;
-                                float: right;
-                                top: 0;
-                                right: 0;
-                            }
-                            
-                            #menu::before {
-                                content: "☰";
-                                color: white;
-                            }
-                            
-                            #menu.open::before {
-                                content: "❌";
-                            }
-                            
-                            .navigation {
-                                display: flex;
-                                flex-direction: column;
-                                list-style: none;
-                                background-color: rgb(10, 91, 29);
-                                border-radius: 5px;
-                            }
-                            
-                            .navigation li {
-                                display: none;
-                            }
-                            
-                            .navigation li a {
-                                display: block;
-                                padding: 1rem;
-                                text-align: center;
-                                text-decoration: none;
-                                color: #fff;
-                            }
-                            
-                            .navigation li a::before {
-                                content: "😎";
-                            }
-                            
-                            .navigation li a:hover {
-                                background-color: #bbb;
-                                color: #333;
-                                font-weight: 700;
+     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+ body {
+     max-width: 1200px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     min-width: min-content;
+     margin-left: auto;
+     margin-right: auto;
+     font-family: "Roboto", sans-serif;
+ }
+ 
+ header {
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     align-items: center;
+     background-color: black;
+     border-radius: 10px;
+ }
+ 
+ .profile-pic {
+     width: 100px;
+     margin: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 6px 6px white;
+ }
+ 
+ header h1 {
+     color: white;
+     padding: 20px;
+ }
+ /*Navigation*/
+ 
+ nav {
+     flex-direction: column;
+     background-color: rgb(10, 91, 29);
+     border-radius: 5px;
+ }
+ 
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     font-size: .90em;
+     font-weight: bold;
+ }
+ 
+ .navigation li a {
+     display: block!important;
+     color: black;
+     padding: 5px;
+     text-decoration: none;
+     text-align: center;
+ }
+ 
+ nav li a:hover {
+     background-color: whitesmoke;
+     color: #000000;
+ }
+ 
+ main {
+     display: grid;
+     grid-template-columns: 1fr;
+     padding: 20px;
+ }
+ 
+ main li a:hover {
+     color: rgb(12, 0, 0);
+     font-weight: bold;
+     text-decoration: none;
+ }
+ 
+ h2 {
+     text-align: center;
+ }
+ 
+ h2:after {
+     content: " ";
+     display: block;
+     border: 1px solid blue;
+ }
+ /*Card*/
+ 
+ .card {
+     border: 1px solid blue;
+     border-radius: 10px;
+     margin-bottom: 5px;
+ }
+ 
+ .card a {
+     font-size: small;
+ }
+ 
+ .card h3 {
+     background-color: black;
+     border-radius: 5px;
+     color: #dbdce0;
+     text-align: center;
+     padding: 5px;
+     margin-top: 0;
+ }
+ 
+ .card ul {
+     list-style-type: none;
+     padding: 10px;
+ }
+ 
+ .card li {
+     padding: 1px;
+ }
+ 
+ .map {
+     padding-bottom: 50%;
+     position: relative;
+ }
+ 
+ .map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+     border-radius: 10px;
+ }
+ /* Footer */
+ 
+ footer {
+     display: grid;
+     grid-template-columns: 1fr;
+     text-align: center;
+     align-items: center;
+     background-color: black;
+     border-radius: 5px;
+ }
+ 
+ footer p {
+     color: white;
+     margin: 3px;
+     font-size: 15px;
+ }
+ 
+ footer a:hover {
+     color: rgb(12, 0, 0);
+     text-decoration-color: rgb(204, 50, 53);
+ }
+ 
+ .hero {
+     margin: 5px auto;
+     position: relative;
+     border: 1px solid rgba(0, 0, 0, .1);
+     height: 650px;
+ }
+ 
+ .hero img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: black;
+     border-style: inset;
+     border-radius: 25px;
+ }
+ 
+ .templelabel {
+     position: absolute;
+     top: 30px;
+     left: 30px;
+     background: radial-gradient(#fff, #4D5B97);
+     border: 1px solid rgba(0, 0, 0, .75);
+     padding: 1.5rem;
+     box-shadow: 0 0 3rem #fff;
+     opacity: 0.75;
+ }
+ 
+ .templelabel p {
+     margin: 0;
+     padding: 2rem;
+     font-weight: bolder;
+     font-size: 24px;
+     font-family: "Great Vibes", serif;
+ }
+ 
+ #menu {
+     font-size: 1.5rem;
+     padding: 3px 7px 6px;
+     background-color: #153F65;
+     color: #000;
+     position: absolute;
+     float: right;
+     top: 0;
+     right: 0;
+ }
+ 
+ #menu::before {
+     content: "☰";
+     color: white;
+ }
+ 
+ #menu.open::before {
+     content: "❌";
+ }
+ 
+ .navigation {
+     display: flex;
+     flex-direction: column;
+     list-style: none;
+     background-color: rgb(10, 91, 29);
+     border-radius: 5px;
+ }
+ 
+ .navigation li {
+     display: none;
+ }
+ 
+ .navigation li a {
+     display: block;
+     padding: 1rem;
+     text-align: center;
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ .navigation li a::before {
+     content: "😎";
+ }
+ 
+ .navigation li a:hover {
+     background-color: #bbb;
+     color: #333;
+     font-weight: 700;
