@@ -1000,8 +1000,8 @@ main img {
     display: flex;
     position: absolute;
     top: 1rem;
-    right: 20rem;
-    font-size: 2rem;
+    right: 25rem;
+    font-size: 1rem;
     cursor: pointer;
     color: rgb(3, 3, 3);
 }
