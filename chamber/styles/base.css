@@ -100,7 +100,7 @@ header div {
 }
 
 header div #datetime {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #153F65;
     color: #fff;
     padding: 6px;
     width: 100%;
