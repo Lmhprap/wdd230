@@ -18,3 +18,17 @@
         text-align: center;
     }
 }
+
+.hamburger {
+    font-size: 25px;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    width: 28px;
+    height: 27px;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    width: 28px;
+    height: 27px;
+}

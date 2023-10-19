@@ -273,10 +273,6 @@ header div nav ul.open {
     height: 48px;
 }
 
-#hamburgerBtn span:nth-child(2) {
-    display: none;
-}
-
 #hamburgerBtn.open span:nth-child(1) {
     display: none;
 }
