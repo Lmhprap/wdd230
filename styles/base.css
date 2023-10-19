@@ -156,7 +156,6 @@ footer a:hover {
     margin: 5px auto;
     position: relative;
     border: 1px solid rgba(0, 0, 0, .1);
-    height: 650px;
 }
 
 .hero img {
@@ -220,8 +219,23 @@ footer a:hover {
     content: "😎";
 }
 
+.navigation li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
 .navigation li a:hover {
     background-color: #bbb;
     color: #333;
     font-weight: 700;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
 }
