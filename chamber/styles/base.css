@@ -107,7 +107,8 @@ header div #datetime {
     height: 35px;
     text-align: center;
     margin: 15px 0px;
-    font-size: 14px;
+    font-size: 23px;
+    font-weight: bolder;
 }
 
 a {
