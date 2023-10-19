@@ -7,7 +7,7 @@
         /* hide hamburger button */
     }
     .navigation {
-        flex-direction: column;
+        flex-direction: row;
     }
     .navigation li a {
         display: block;
@@ -17,18 +17,4 @@
         text-decoration: none;
         text-align: center;
     }
-}
-
-.hamburger {
-    font-size: 25px;
-}
-
-#hamburgerBtn span:nth-child(1) {
-    width: 28px;
-    height: 27px;
-}
-
-#hamburgerBtn.open span:nth-child(2) {
-    width: 28px;
-    height: 27px;
 }
