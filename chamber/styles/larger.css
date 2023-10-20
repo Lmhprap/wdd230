@@ -115,12 +115,4 @@
     .call-to-action {
         resize: none;
     }
-    #mode {
-        display: block;
-        top: 1.0rem;
-        right: 18rem;
-        font-size: 2rem;
-        cursor: pointer;
-        color: white;
-    }
 }

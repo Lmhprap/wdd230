@@ -5,10 +5,10 @@ modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("⚫")) {
         main.style.background = "#000";
         main.style.color = "#fff";
-        modeButton.textContent = "⚪";
+        modeButton.textContent = "Enable Light Mode 🔘";
     } else {
         main.style.background = "#eee";
         main.style.color = "#000";
-        modeButton.textContent = "⚫";
+        modeButton.textContent = "Enable Dark Mode ⚫";
     }
 });
