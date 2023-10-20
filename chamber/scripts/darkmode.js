@@ -9,6 +9,6 @@ modeButton.addEventListener("click", () => {
     } else {
         main.style.background = "#eee";
         main.style.color = "#000";
-        modeButton.textContent = "Enable Dark Mode ";
+        modeButton.textContent = "Enable Dark Mode ⚫ ";
     }
 });
