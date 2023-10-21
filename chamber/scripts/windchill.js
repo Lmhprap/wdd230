@@ -1,6 +1,6 @@
 const apiKey = 'bb06f83ae63888ef53975084692c8460';
-const latitude = 45.6387;
-const longitude = -122.6615
+const latitude = 33.6846;
+const longitude = -117.8265;
 
 
 function fetchChill(temp, speed) {
@@ -14,7 +14,7 @@ function fetchChill(temp, speed) {
     return windchill;
 }
 
-
+/* Need proper API Key for exact Irvine Calculation/Data */
 function fetchWeatherData(city) {
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
 
