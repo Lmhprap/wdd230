@@ -73,7 +73,7 @@
         nav,
         main,
         footer {
-            max-width: 2000px;
+            max-width: 1600px;
             min-width: 350px;
             margin: 0 auto;
         }
@@ -521,7 +521,8 @@
         }
         
         .hero img {
-            object-fit: cover;
+            width: 100%;
+            height: auto;
         }
         
         .banner {
