@@ -73,7 +73,7 @@
         nav,
         main,
         footer {
-            max-width: 1900px;
+            max-width: 1650px;
             margin: 0 auto;
         }
         
@@ -316,7 +316,7 @@
             padding: 10px;
             text-align: center;
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         
         .container {
@@ -520,7 +520,8 @@
         
         .hero {
             position: relative;
-            padding: 0px;
+            width: 100%;
+            aspect-ratio: 3/2;
         }
         
         .hero img {
@@ -543,6 +544,7 @@
             padding: 12px;
             font-size: 32px;
             text-shadow: 4px 4px 8px #000000;
+            aspect-ratio: 1/1;
         }
         
         .call-to-action {

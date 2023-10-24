@@ -35,6 +35,7 @@
             .hero {
                 grid-column: 1/4;
                 grid-row: 1/2;
+                aspect-ratio: 3/2;
             }
             .news {
                 grid-column: 1/4;
