@@ -155,7 +155,7 @@ footer {
     grid-template-columns: 1fr;
     text-align: center;
     align-items: center;
-    background-color: black;
+    background-color: #153F65;
     border-radius: 5px;
 }
 
@@ -166,7 +166,7 @@ footer p {
 }
 
 footer a:hover {
-    color: rgb(12, 0, 0);
+    color: white;
     text-decoration-color: rgb(204, 50, 53);
 }
 
