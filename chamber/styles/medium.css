@@ -1,4 +1,4 @@
-        @media (min-width: 32.5em) {
+        @media (min-width: 620px) {
             aside {
                 display: flex;
                 flex-direction: row;
@@ -170,7 +170,7 @@
             .forecast-card {
                 display: flex;
                 flex-direction: column;
-                border: 1px solid black;
+                border: 1.5px solid #153F65;
                 width: 110px;
                 border-radius: 5px;
                 padding: 10px;
@@ -178,7 +178,7 @@
                 text-align: center;
             }
             .weather-forcast-img {
-                filter: drop-shadow(4px 4px 4px rgb(124, 124, 124));
+                filter: drop-shadow(4px 4px 4px #153F65);
             }
             .directory-grid section {
                 grid-template-columns: 1fr 2fr 2fr 1fr;

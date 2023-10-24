@@ -73,7 +73,7 @@
         nav,
         main,
         footer {
-            max-width: 1600px;
+            max-width: 1400px;
             min-width: 350px;
             margin: 0 auto;
         }
@@ -330,7 +330,11 @@
         }
         
         .map {
-            width: 95%;
+            width: 55%;
+            margin-top: 50px;
+            margin-left: 160px;
+            border-radius: 5px;
+            box-shadow: #153F65;
         }
         /* News Section */
         
@@ -451,7 +455,7 @@
         #spotlight6 {
             background-color: #eeeeee;
             border: 2px solid #bbbbbb;
-            padding: 10px;
+            padding: 100px;
             margin: 5px 0px;
         }
         
@@ -483,14 +487,14 @@
         
         .discover-left {
             display: none;
-            background-color: rgba(96, 108, 56, 0.5);
+            background-color: #153F65;
             border: 2px solid #bbbbbb;
-            padding: 10px;
+            padding: 20px;
         }
         
         .discover picture img {
-            width: 300px;
-            height: 400px;
+            width: 200px;
+            height: 325px;
             object-fit: cover;
             object-position: center;
             box-shadow: 4px 4px 8px #858585;
@@ -690,7 +694,7 @@
         
         .last-visit {
             grid-column: 1/4;
-            max-width: 1200px;
+            max-width: 2000px;
             width: 100%;
             margin: 5px 0 auto;
             text-align: center;
@@ -698,6 +702,7 @@
             background-color: var(--accent2-color);
             padding: 6px;
             color: #000;
+            font-weight: bold;
         }
         
         .visitInfo {
@@ -893,7 +898,7 @@
             border-radius: 5px;
             background-color: #fff;
             border: 2px solid #bbbbbb;
-            margin: 0px 0px 15px 0px;
+            margin: 0px 0px 25px 0px;
             text-align: center;
         }
         
@@ -901,7 +906,7 @@
             width: 60px;
             height: 60px;
             border-radius: 5px;
-            border: 2px solid rgba(96, 108, 56, 0.4);
+            border: 2px solid #153F65;
             box-shadow: 3px 3px 6px #5e5e5e;
             margin: 8px;
         }

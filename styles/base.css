@@ -15,7 +15,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    background-color: black;
+    background-color: rgb(49, 49, 166);
     border-radius: 10px;
 }
 
@@ -97,6 +97,14 @@ h2:after {
     font-size: small;
 }
 
+#card1 {
+    width: auto;
+}
+
+#card2 {
+    width: 95%;
+}
+
 .card h3 {
     background-color: black;
     border-radius: 5px;
@@ -127,6 +135,16 @@ h2:after {
     top: 0;
     position: absolute;
     border-radius: 10px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    font-weight: bolder;
 }
 
 
@@ -186,7 +204,7 @@ footer a:hover {
 #menu {
     font-size: 1.5rem;
     padding: 3px 7px 6px;
-    background-color: #153F65;
+    background-color: rgb(49, 49, 166);
     color: #000;
     position: absolute;
     float: right;
@@ -238,4 +256,15 @@ footer a:hover {
 
 .open li a {
     display: block;
+}
+
+.label {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+.visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: smaller;
 }

@@ -1,6 +1,6 @@
 {
     "businesses": [{
-            "name": "ABC Company",
+            "name": "Test Company",
             "address": "123 Main Street",
             "phone": "360-555-1234",
             "website": "https://www.abccompany.com",
