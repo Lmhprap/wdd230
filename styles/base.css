@@ -15,7 +15,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    background-color: rgb(49, 49, 166);
+    background-color: #153F65;
     border-radius: 10px;
 }
 
@@ -81,14 +81,14 @@ h2 {
 h2:after {
     content: " ";
     display: block;
-    border: 1px solid blue;
+    border: 1px solid #153F65;
 }
 
 
 /*Card*/
 
 .card {
-    border: 1px solid blue;
+    border: 1px solid#153F65;
     border-radius: 10px;
     margin-bottom: 5px;
 }
@@ -204,7 +204,7 @@ footer a:hover {
 #menu {
     font-size: 1.5rem;
     padding: 3px 7px 6px;
-    background-color: rgb(49, 49, 166);
+    background-color: #153F65;
     color: #000;
     position: absolute;
     float: right;
