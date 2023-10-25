@@ -22,6 +22,7 @@ function chooseHighlights(businesses) {
     displayHighlight(shuffledMembership[0], "#spotlight1");
     displayHighlight(shuffledMembership[1], "#spotlight2");
     displayHighlight(shuffledMembership[2], "#spotlight3");
+
 }
 
 function displayHighlight(business, elementID) {
