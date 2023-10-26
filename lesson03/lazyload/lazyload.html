@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="W07 Lazy Loading - Robert A. Phelps" content="Image Lazy Loading W07 Assignment">
+    <title>WDD230 Design Principles | Robert Phelps | W07 Lazy Loading</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header>
+        <h1>Progressive Loading of Images <br> WDD230 Lesson08 </h1>
+    </header>
+    <main>
+        <picture>
+            <img src='images/irvhome.webp' data-src="images/irvhome.webp" alt="Picture 1" />
+        </picture>
+        <picture>
+            <img src='images/Irvine-city.webp' data-src="images/Irvine-city.webp" alt="Picture 2">
+        </picture>
+        <picture>
+            <img src='images/irvlake.webp' data-src="images/irvlake.webp" alt="Picture 3">
+        </picture>
+        <picture><img src='images/utaharch.jpg' data-src="images/utaharch.jpg" alt="Picture 4">
+        </picture>
+        <picture>
+            <img src='images/utahtree.jpg' data-src="imagesimages/utahtree.jpg" alt="Picture 5">
+        </picture>
+        <picture>
+            <img src='images/Irvine-outdoor.jpeg' data-src="images/Irvine-outdoor.jpeg" alt="Picture 6">
+        </picture>
+    </main>
+    <footer>
+        <p>&copy;<span id="year" style="color:white"></span> | Robert A. Phelps | Utah |</p>
+        <p><a style="color:white" href="https://www.byui.edu/online" target="_blank">BYU Online </a></p>
+        <p> Last Modified:<span id="currentDate"></span></p>
+    </footer>
+
+    <script src="scripts/lazyscript.js"></script>
+    <script src="scripts/getdates.js"></script>
+
+
+</body>
+
+
+</html>
