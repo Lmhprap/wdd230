@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    height: 100px;
-    background-color: rgb(15, 75, 38);
+    height: 150px;
+    background-color: #153F65;
     margin: 0px 0px 20px 0px;
 }
 
@@ -20,7 +20,7 @@ h1 {
 
 main {
     margin: 0 auto;
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -29,19 +29,21 @@ picture {
     padding: 10px;
 }
 
-picture img[data-src] {
-    filter: blur(0.3em);
-}
-
 img {
     padding: 10px;
     background-color: #fff;
     width: 100%;
     box-shadow: 2px 2px 4px #2f2f2f;
-    filter: blur(0em);
-    -webkit-transition: filter 0.75s ease-in-out;
-    -moz-transition: filter 0.75s ease-in-out;
-    transition: filter 0.75s ease-in-out;
+    animation: fade 9s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
