@@ -76,7 +76,8 @@
         nav,
         main,
         footer {
-            max-width: 3000px;
+            max-width: 2000px;
+            margin: 0 auto;
         }
         
         header {
