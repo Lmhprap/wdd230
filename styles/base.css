@@ -268,3 +268,9 @@ footer a:hover {
     font-weight: bolder;
     font-size: smaller;
 }
+
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
