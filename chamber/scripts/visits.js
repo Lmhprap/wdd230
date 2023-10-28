@@ -37,5 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
     // Calculate day difference
     const dayDifference = dateCurr.getDayDifference(new Date(lastVisit));
     // Add difference in date banner
-    document.querySelector("#date-section p").innerText += ` (Days since last visit: ${dayDifference})`;
+    document.querySelector("#date-section p").innerText += '(Days since last visit: ${dayDifference})';
 });
