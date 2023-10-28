@@ -953,7 +953,6 @@ div.board figure picture img {
 }
 
 .mode {
-    align-items: right;
     justify-content: flex-end;
     margin: 0;
     padding: 0 0 0 3rem;
