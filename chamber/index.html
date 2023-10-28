@@ -1,88 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robert Phelps - WDD 230 - Irvine, California Chamber of Commerce</title>
-    <meta name="description" content="Greater Irvine Chamber of Commerce - Come Join Us!.">
-    <meta name="author" content="Robert A. Phelps">
-    <link rel="icon" href="irv-favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="og:title" content="Irvine California Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/styles/welcome_image/public/vc_irvine_irvinespectrumcenter_st_rm_486307227_1280x640.jpg">
     <meta property="og:url" content="https://lmhprap.github.io/wdd230/chamber/index.html">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Robert A. Phelps">
+    <meta name="description" content="The Irvine Chamber of Commerce has been in operation since 1956.  Come join us">
+    <title>Irvine California Chamber of Commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="irv-favicon.ico">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/mediumtest.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
 </head>
 
 <body>
     <div id="chambermeet">
-        <p>📆 Come join us for our next chamber meet and greet Wednesday at 7:00 p.m.</p>
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     </div>
-
     <header>
         <div class="headname">
-            <img class="logo" src="images/irvine-city-logo.webp" alt="Irvine California Chamber of Commerce">
-            <h1 class="irvcc">Irvine California<br>Chamber<br>of<br> Commerce</h1>
+            <img class="logo" src="images/irvine-city-logo.webp" alt="Irvine Chamber">
+            <div class="irv">Irvine California<br>Chamber of Commerce</div>
+
         </div>
         <div class="social">
             <a href="https://www.facebook.com/" target="_blank"><img src="images/fb-img.webp" alt="Facebook" class="sociallogo"></a>
             <a href="https://www.linkedin.com/" target="_blank"><img src="images/in-img.webp" alt="LinkedIn" class="sociallogo"></a>
             <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp" alt="Twitter" class="sociallogo"></a>
         </div>
-
         <div>
             <button id="hamburgerBtn"><span class="hamburger">&#9776;</span><span class="hamburger">X</span></button>
         </div>
-
         <div class="menu">
             <nav>
                 <ul id="primaryNav">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="date-header">
+        <div class="date-hdr">
             <p id="datetime"><span id="todayHeading"></span></p>
         </div>
-
+        <div id="mode">
+            <em>Enable Dark Mode</em>⚫
+        </div>
     </header>
-    <div id="mode">
-        <em>Enable Dark Mode</em>⚫
-    </div>
-
-
 
     <main class="home">
-
-
         <div class="hero">
             <picture>
-                <source srcset="images/wdd230-org.small.webp" media="(max-width: 450px)">
-                <source srcset="images/wdd230-org.medium.webp" media="(max-width: 725px)">
-                <img class="banner" src="images/wdd230-org.webp" alt="Irvine California" width="100px" height="400px">
-
-
+                <source srcset="images/wdd230-org.small.webp" media="(min-width: 400px) and (max-width: 599px)">
+                <source srcset="images/wdd230-org.medium.webp" media="(min-width: 700px) and (max-width: 899px)">
+                <img class="banner" src="images/wdd230-org.large.webp" alt="Irvine California">
             </picture>
+
             <h1 class="hero-banner">Welcome to the Irvine<br>Chamber of Commerce</h1>
             <form action="join.html"><button class="call-to-action" type="submit">Join the Chamber</button></form>
         </div>
         <div class="event">
-            <img src="images/harvest.webp" alt="31st Annual Harvesters Fashion Show & Luncheon">
-            <p class="large">Harvest Fashion Show</p>
-            <p class="medium">25th Annual Fashion for Food</p>
-            <p>The Greater Irvine Chamber offers more than 400 events each year, including signature events, council and committee meetings, community outreach activities, lead generation groups, professional development workshops, and social and networking
-                gatherings. Through these activities, Greater Irvine Chamber members have exclusive opportunities to reach and connect with hundreds of fellow members, the local business community, community leaders, and elected officials from the City
-                of Irvine, Orange County, Sacramento, and Washington D.C. All employees from member companies are eligible for participation..<br><a href="#">more info...</a></p>
+            <img src="images/race.png" alt="Race for the Homeless Event">
+            <p class="large">Race for the Homeless</p>
+            <p class="medium">Shoe Factory</p>
+            <p>Join us in our 5th annual race to benefit the homeless in our community. It is always a wonderful event with lots of community support.<br><a href="#">more info...</a></p>
         </div>
         <div class="weather">
             <div id="weather-info">
@@ -90,16 +80,12 @@
         </div>
         <div class="news">
             <p class="large">📰 Local News Releases</p>
-            <p><b>Irvine, CA-</b> Irvine City Council members approved a $25 million expansion to their animal care shelter with no discussion on Tuesday night after years of delays that would also reduce the total number of kennels available.<br> The shelter’s
-                expansion will add a new clinic, renovations for the administration building and allow for sick animals to be separated from healthy ones, a major milestone for the shelter according to the city staff report. But while the proposal is
-                set to add nearly 10,000 square feet to the facility, it will also reduce the total number of kennels at the shelter, dropping 30 kennels and leaving just over 100 spots available in the facility’s storage, according to the staff report.
-            </p>
+            <p><b>Irvine, CA-</b> The Irvine California Chamber has announced the approval of a new City Center located in South Irvine. The ground breaking ceremony will be on Saturday, November 15th at the corner of michaelson and Irvine Center Dr. We
+                will be starting at 9:30am</p>
         </div>
         <div class="join">
-            <form action="join.html"><button class="join-us" type="submit">Join Us!</button></form>
-            <p>We invite you to be part of one of the most influential Chambers in America and one of the largest in Orange County. Our mission is to advance the economic vitality of greater Irvine. Every day we work to support an economic climate that strengthens
-                the competitiveness of businesses, just like yours..</p>
-
+            <form action="join.html"><button class="join-us" type="submit">For More Information</button></form>
+            <p>For more information on the Irvine Chamber of Commerce please join us and together we can build a better Irvine!</p>
         </div>
 
         <aside class="aside">
@@ -115,13 +101,12 @@
                 </section>
             </div>
 
+
             <div class="spotlight" id="spotlight3">
                 <section class="text-center spotlight">
                     <h2>spotlight</h2>
                 </section>
             </div>
-
-
         </aside>
     </main>
     <footer>
@@ -149,7 +134,6 @@
         </div>
 
     </footer>
-
     <script src="scripts/script.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/spotlight.js"></script>
@@ -157,12 +141,6 @@
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/localstorage.js"></script>
     <script src="scripts/visits.js"></script>
-
-
-
-
-
-
 
 </body>
 
