@@ -64,8 +64,8 @@
         display: block;
     }
     .discover-card picture img {
-        width: 300px;
-        height: 400px;
+        width: 250px;
+        height: 320px;
     }
     .join-van-cc {
         display: grid;
