@@ -5,63 +5,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robert Phelps - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="WDD230 - Robert Phelps - Chamber of Commerce Assignment">
+    <title>Robert Phelps - WDD 230 - Irvine, California Chamber of Commerce</title>
+    <meta name="description" content="Greater Irvine Chamber of Commerce - Come Join Us!.">
     <meta name="author" content="Robert A. Phelps">
-
-    <link rel="icon" href="images/irv-logo.ico">
+    <link rel="icon" href="irv-favicon.ico">
+    <meta property="og:title" content="Irvine California Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/styles/welcome_image/public/vc_irvine_irvinespectrumcenter_st_rm_486307227_1280x640.jpg">
+    <meta property="og:url" content="https://lmhprap.github.io/wdd230/chamber/index.html">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 
-
-    <!--Essential META Tags -->
-    <meta name="og:title" content="Robert Phelps - WDD 230 Web Frontend Development - Chamber of Commerce Assignment">
-    <meta name="og:type" content="Website">
-    <meta name="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Mount_Timpanogos_-_01-07-08.jpg/1920px-Mount_Timpanogos_-_01-07-08.jpg">
-    <meta name="og:url" content="https://lmhprap.github.io/wdd230/">
-
 </head>
+
 
 <body>
     <div id="chambermeet">
-        <p>📆 Come join us for our next chamber meet and greet Wednesday at 7:00 p.m.</p>
+        <p>📆 Come join us for our next chamber meet and greet Wednesday at 7:00 p.m. Light refreshments will be served</p>
     </div>
     <header>
         <div class="headname">
-            <img class="logo" src="images/irvine-city-logo.webp" alt="Irvine California Chamber of Commerce">
-            <h1 class="irvcc">Irvine California<br>Chamber<br>of<br> Commerce</h1>
+            <img class="logo" src="images/irvine-city-logo.webp" alt="Irvine Chamber">
+            <div class="irv">Irvine California<br>Chamber of Commerce</div>
+
         </div>
         <div class="social">
             <a href="https://www.facebook.com/" target="_blank"><img src="images/fb-img.webp" alt="Facebook" class="sociallogo"></a>
             <a href="https://www.linkedin.com/" target="_blank"><img src="images/in-img.webp" alt="LinkedIn" class="sociallogo"></a>
             <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp" alt="Twitter" class="sociallogo"></a>
         </div>
-
         <div>
             <button id="hamburgerBtn"><span class="hamburger">&#9776;</span><span class="hamburger">X</span></button>
         </div>
-
         <div class="menu">
             <nav>
                 <ul id="primaryNav">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="date-header">
+        <div class="date-hdr">
             <p id="datetime"><span id="todayHeading"></span></p>
         </div>
-
+        <div id="mode">
+            <em>Enable Dark Mode</em>⚫
+        </div>
     </header>
-    <div id="mode">
-        <em>Enable Dark Mode</em>⚫
-    </div>
+
 
 
 
@@ -159,7 +155,7 @@
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-footer" src="images/irv-logo.png" alt="Irvine Chamber of Commerce Logo">
+            <img class="logo-footer" src="images/irv-logo.webp" alt="Irvine Chamber of Commerce Logo">
         </div>
         <div class="name-footer">
             <h2>Irvine California<br>Chamber of Commerce</h2>
@@ -177,12 +173,18 @@
             &copy;<span id="copyright"></span> Irvine California Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Robert A. Phelps&nbsp;&nbsp; |&nbsp;&nbsp;WDD 230 Chamber Project&nbsp;&nbsp;|&nbsp;&nbsp;
             <p> Last Modified:<span id="dateModified"></span></p>
         </div>
+        <div class="last-visit">
+            Last visit: <span id="visitInfo"></span>
+        </div>
+
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/getDates.js "></script>
-    <script src="scripts/hbutton.js "></script>
-    <script src="scripts/visits.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/chambermeet.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/visits.js"></script>
 
 </body>
 
