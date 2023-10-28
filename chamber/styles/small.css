@@ -75,7 +75,7 @@ header,
 nav,
 main,
 footer {
-    max-width: 1600px;
+    max-width: 1700px;
     min-width: 350px;
     margin: 0 auto;
 }
