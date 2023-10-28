@@ -1,4 +1,4 @@
-@media (min-width: 60em) {
+@media (min-width: 67.86em) {
     header div button {
         display: none;
     }
@@ -64,8 +64,8 @@
         display: block;
     }
     .discover-card picture img {
-        width: 250px;
-        height: 320px;
+        width: 200px;
+        height: 300px;
     }
     .join-van-cc {
         display: grid;
