@@ -1,4 +1,4 @@
-const apiKey = 'bb06f83ae63888ef53975084692c8460';
+const apiKey = '409f49352438f14dff06e48ea197cb14';
 const latitude = 33.6846;
 const longitude = -117.8265;
 
