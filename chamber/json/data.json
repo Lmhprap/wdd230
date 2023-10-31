@@ -4,7 +4,7 @@
             "address": "123 Main Street",
             "phone": "360-555-1234",
             "website": "https://www.abccompany.com",
-            "imageurl": "images/logo1.jpg",
+            "imageurl": "images/logo1.webp",
             "membership": "gold",
             "slogan": "Delivering excellence since 1990"
         },
@@ -13,7 +13,7 @@
             "address": "456 Elm Avenue",
             "phone": "360-555-5678",
             "website": "https://www.xyzcorp.com",
-            "imageurl": "images/logo2.jpg",
+            "imageurl": "images/logo2.webp",
             "membership": "silver",
             "slogan": "Building for a better future"
         },
@@ -22,7 +22,7 @@
             "address": "789 Oak Street",
             "phone": "360-555-9012",
             "website": "https://www.pqri.com",
-            "imageurl": "images/logo3.jpg",
+            "imageurl": "images/logo3.webp",
             "membership": "bronze",
             "slogan": "Engineering solutions that matter"
         },
@@ -31,7 +31,7 @@
             "address": "321 Pine Lane",
             "phone": "360-555-3456",
             "website": "https://www.lmnenterprises.com",
-            "imageurl": "images/logo4.jpg",
+            "imageurl": "images/logo4.webp",
             "membership": "non-profit",
             "slogan": "Your partner for success"
         },
@@ -40,7 +40,7 @@
             "address": "654 Cedar Road",
             "phone": "360-555-7890",
             "website": "https://www.defcorp.com",
-            "imageurl": "images/logo5.jpg",
+            "imageurl": "images/logo5.webp",
             "membership": "gold",
             "slogan": "Empowering businesses worldwide"
         },
@@ -49,7 +49,7 @@
             "address": "987 Maple Street",
             "phone": "360-555-2345",
             "website": "https://www.ghisolutions.com",
-            "imageurl": "images/logo6.jpg",
+            "imageurl": "images/logo6.webp",
             "membership": "silver",
             "slogan": "Driving innovation for a connected world"
         },
@@ -67,7 +67,7 @@
             "address": "789 Elm Street",
             "phone": "360-555-0123",
             "website": "https://www.mnoenterprises.com",
-            "imageurl": "images/logo8.jpg",
+            "imageurl": "images/logo8.webp",
             "membership": "non-profit",
             "slogan": "Innovate. Collaborate. Succeed."
         },
@@ -76,7 +76,7 @@
             "address": "123 Cedar Lane",
             "phone": "360-555-4567",
             "website": "https://www.rstcorp.com",
-            "imageurl": "images/logo9.jpg",
+            "imageurl": "images/logo9.webp",
             "membership": "gold",
             "slogan": "Transforming industries with technology"
         },
@@ -85,7 +85,7 @@
             "address": "987 Pine Avenue",
             "phone": "360-555-8901",
             "website": "https://www.uvwcompany.com",
-            "imageurl": "images/logo10.jpg",
+            "imageurl": "images/logo10.webp",
             "membership": "silver",
             "slogan": "Leading with passion and purpose"
         }

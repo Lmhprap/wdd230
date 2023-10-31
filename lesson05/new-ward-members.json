@@ -1,0 +1,44 @@
+{
+    "ward": [{
+
+            "familyname": "Phelps",
+            "movein": "01/01/2023",
+            "numinfamily": "3",
+            "bvisit": "Y",
+            "name1": "Robert Phelps",
+            "gender1": "male",
+            "birthdate1": "08/28/1959",
+            "name2": "Lisa Phelps",
+            "gender2": "female",
+            "birthdate2": "06/13/1962"
+        },
+        {
+            "familyname": "Smith",
+            "movein": "02/01/2023",
+            "numinfamily": "1",
+            "bvisit": "N",
+            "name1": "Jeremy Smith",
+            "gender1": "male",
+            "birthdate1": "12/22/1975"
+        },
+        {
+            "familyname": "Abott",
+            "movein": "05/22/2023",
+            "numinfamily": "4",
+            "bvisit": "Y",
+            "name1": "James Abott",
+            "gender1": "male",
+            "birthdate1": "08/28/1959",
+            "name2": "Mary Abott",
+            "gender2": "female",
+            "birthdate2": "06/13/1962",
+            "name3": "Sue Abott",
+            "gender3": "female",
+            "birthdate3": "12/13/1973",
+            "name4": "Mary Abott",
+            "gender4": "female",
+            "birthdate4": "06/13/1962"
+        }
+
+    ]
+}

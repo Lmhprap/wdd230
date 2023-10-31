@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robert Phelps - WDD 230 - Irvine, California Chamber of Commerce Join</title>
-    <meta name="description" content="The Irvine Chamber of Commerce has been in operation since 1956.  Come join us">
+    <meta name="description" content="Join the Irvine Chamber of Commerce and select your membership level.">
     <meta name="author" content="Robert A. Phelps">
     <link rel="icon" href="irv-favicon.ico">
     <meta property="og:title" content="Irvine California Chamber of Commerce">
@@ -58,11 +58,6 @@
         </div>
     </header>
 
-
-
-
-
-    </header>
     <main class="join-van-cc">
         <h1 class="title">Join Our Chamber of Commerce</h1>
 
@@ -116,7 +111,7 @@
         <div class="form-container">
             <p>Thank you for considering membership with us. By joining our Chamber, you become an integral part of a vibrant business community dedicated to growth, support, and success. Together, we can achieve great things.</p>
             <p>As a member of the Irvine Chamber, you gain access to a wealth of invaluable resources and opportunities designed to help your business thrive.</p>
-            <img class="joinbridge" src="images/irvine-join.jpg" alt="Interstate 5 Bridge">
+            <img class="joinbridge" src="images/irvine-join.webp" alt="City of Irvine">
             <form action="thankyou.html" method="get">
                 <h2>Chamber of Commerce Application</h2>
                 <p>Please fill out this form to create an account and select your membership level.</p>
@@ -126,7 +121,7 @@
                 <label class="top">Last name* <input type="text" name="lname" required></label>
                 <label class="top">Business Name*<input type="text" name="business" required></label>
                 <label class="top">Position <input type="text" name="position" placeholder="Position in Organization" pattern="[a-zA-Z\s\-]{7,}" title="Please enter at least seven alpha characters, hyphens, or spaces."></label>
-                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email" required></label>
+                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email" pattern="(?![_.-])((?![_.-][_.-])[a-zA-Z\d_.-]){0,63}[a-zA-Z\d]@((?!-)((?!--)[a-zA-Z\d-]){0,63}[a-zA-Z\d]\.){1,2}([a-zA-Z]{2,14}\.)?[a-zA-Z]{2,14}"></label>
                 <label class="top">Cell Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
                 <br>
                 <fieldset>
