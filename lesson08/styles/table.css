@@ -26,7 +26,7 @@ table {
 
 th,
 td {
-    border: 1px solid #eaeaea;
+    border: 1px solid #153F65;
     border-collapse: collapse;
     padding: 20px 10px;
     text-align: center;
@@ -64,23 +64,12 @@ table .table-title {
     text-align: center;
 }
 
-table th {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    letter-spacing: 3px;
-    border: 0px;
-}
-
 thead tr:nth-child(2) th:nth-child(1) {
-    background-color: #283618;
-}
-
-table tr:nth-child(odd) {
-    background-color: rgb(219, 218, 218);
+    background-color: #153F65;
 }
 
 table tr:nth-child(even) {
-    background-color: #eeeeee;
+    background-color: rgb(219, 218, 218);
 }
 
 tfoot tr td {
