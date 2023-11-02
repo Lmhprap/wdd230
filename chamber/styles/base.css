@@ -495,7 +495,7 @@ aside {
 
 .discover-left {
     display: none;
-    background-color: rgba(96, 108, 56, 0.5);
+    background-color: #153F65;
     border: 2px solid #bbbbbb;
     padding: 10px;
 }
@@ -745,10 +745,11 @@ legend {
 }
 
 .directory-buttons button {
-    background-color: #283618;
+    background-color: #153F65;
     margin: -30px 15px 20px 15px;
     border-radius: 6px;
     color: #fff;
+    font-size: 13px;
     font-weight: bold;
     border: 2px #777777 solid;
 }
@@ -787,8 +788,8 @@ legend {
     grid-template-columns: 2fr 1fr;
     padding: 20px;
     margin: 12px;
-    background-color: rgba(221, 161, 94, 0.7);
-    border: 2px #bc6c25 solid;
+    background-color: #d3e5f5;
+    border: 2px #153F65 solid;
     border-radius: 3px;
 }
 
@@ -964,4 +965,36 @@ div.board figure picture img {
     background-position: 100% 100%;
     background-color: #153F65;
     display: flex;
+}
+
+
+/*Calendar for Discover*/
+
+.calendar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.calendar-header {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: bold;
+}
+
+.day {
+    text-align: center;
+    padding: 5px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }

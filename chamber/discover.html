@@ -60,55 +60,81 @@
 
 
     <main class="discover">
-        <!--Hide On Medium/small View-->
-        <div class="discover-left">
-            <div id="ad"></div>
-        </div>
-        <!--End Hide On Medium View-->
-        <div class="discover-center">
-            <div class="discover-center-full">
-                <h1>Discover Irvine</h1>
-                <p class="discovertext">Nestled in the heart of Orange County, Irvine offers a unique blend of outdoor beauty, cultural diversity, and family-friendly activities. With its exceptional schools, thriving job market, and countless recreational options, Irvine is
-                    one of the greenest cities in California. Discover the many benefits of living in Irvine..</p>
-                <br>
-                <div class="weathercontainer">
-                    <p class="headline">Three Day Weather Forecast:</p>
-                    <div class="forecast-grid" id="forecast-grid"></div>
-                    <p class="small">Weather data provided by: <a class="small" href="https://OpenWeatherMap.org">OpenWeatherMap.org</a></p>
-                    <br>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebar-content">
+                    <div class="user-message">
+                        <p id="message"></p>
+                    </div>
+                    <!--End Hide On Medium View-->
+                    <div class="discover-center">
+                        <div class="discover-center-full">
+                            <h1>Discover Irvine</h1>
+                            <p class="discovertext">Nestled in the heart of Orange County, Irvine offers a unique blend of outdoor beauty, cultural diversity, and family-friendly activities. With its exceptional schools, thriving job market, and countless recreational options,
+                                Irvine is one of the greenest cities in California. Discover the many benefits of living in Irvine..</p>
+                            <br>
+                            <div class="weathercontainer">
+                                <p class="headline">Three Day Weather Forecast:</p>
+                                <div class="forecast-grid" id="forecast-grid"></div>
+                                <p class="small">Weather data provided by: <a class="small" href="https://OpenWeatherMap.org">OpenWeatherMap.org</a></p>
+                                <br>
+                            </div>
+                            <p class="headline">Demographic Data:</p>
+                            <p class="discovertext">Population: As of 2021, Irvine is home to approximately 313,685 residents, making it one of the largest city's in Orange County. The population has steadily grown over the years, reflecting the city's appeal as a great and
+                                safe place to live, work, and raise a family.</p>
+                            <br>
+                            <p class="headline">Ethnic Diversity:</p>
+                            <p class="discovertext">Irvine, California, is a city that prides itself on its diversity. Irvine is home to people of all ages and cultures, making for unique food options. From Mexican to Japanese to American Cuisine, Irvine's diverse population
+                                ensures that there will be something new at every restaurant you visit..</p>
+                            <br>
+                            <p class="headline">Economic Strength:</p>
+                            <p class="discovertext">Yes, the cost of living in Irvine is higher than in most cities in the United States. On the other hand, the economy here is robust and vibrant. One of the main reasons is that Irvine hosts several large employers within its
+                                city limit. There are only a few suburbs that can boast this fact. For example, the University of California, Irvine, employs nearly 16,000 people. Blizzard Entertainment, the city’s third-largest employer, is also located
+                                here and Verizon Wireless. In short, there are many high-paying positions within the city limits.</p>
+                            <br>
+                            <p class="headline">Education:</p>
+                            <p class="discovertext">rvine boasts an excellent education system from kindergarten to 12th grade and beyond. If you have children, you can rest assured they’ll be getting an excellent education. If you’re a college student, there’s the University
+                                of California at Irvine, one of the country’s best schools. The Irvine Unified School District (IUSD) has been among the country’s most acceptable for years. Two high schools here are among California’s Distinguished Schools
+                                also due to their high standard of excellence. (Plus an elementary and two middle schools!) In other words, if education is important to you, Irvine won’t disappoint..</p>
+                            <br>
+                            <p class="headline">Outdoor Living:</p>
+                            <p class="discovertext">We already mentioned how the weather in Irvine is quite lovely almost the entire year. What some people miss, however, is the change of seasons. The truth is, there isn’t any season change to speak of. The weather is relatively
+                                mild the entire year and doesn’t get extremely hot or cold. There isn’t even all that much rain. Just many sunny, calm days with low humidity and a few scattered clouds. (Wait, are we sure this is a Con?!) The good news
+                                is that there are mountains and skiing within Irvine’s driving distance.</p>
+                            <br>
+                            <p class="headline">Arts and Culture:</p>
+                            <p class="discovertext">Irvine shines as a multicultural city. Not only is it home to people from different parts of the world but their traditions and cultures are wholeheartedly embraced. Whether it’s the Lunar New Year parades, vibrant Diwali lights,
+                                or the soulful rhythm of Latin dances, there’s always something to immerse oneself in. Plus, with cultural centers and events, you can learn, enjoy, and appreciate global cultures right in the heart of California..</p>
+                            <br>
+                            <p class="discovertext">Your safety and the safety of your loved ones is something you should never take for granted. In Irvine, you’ll find that they don’t take it for granted, either. Indeed, for the 15th year in a row, Irvine is the safest city
+                                of its size in the United States! In towns with a population of 250,000 or more, Irvine has the lowest violent crime rate per capita! (That’s according to the FBI’s annual Uniform Crime Report, which is very accurate.)
+                                One of the reasons is the excellent relationship between the police force and the community. Residents of Irvine give the cops very high grades for commitment and compassion. On the scale of Pros and Cons of Irvine, CA,
+                                its high safety level is a vast Pro on the list of The Pros And Cons Of Living in Irvine, California!</p>
+                        </div>
+
+                        <div class="calendar">
+                            <div class="calendar-header">
+                                <span id="month-year"></span>
+                            </div>
+                            <div class="calendar-days">
+                                <div class="day">Sun</div>
+                                <div class="day">Mon</div>
+                                <div class="day">Tue</div>
+                                <div class="day">Wed</div>
+                                <div class="day">Thu</div>
+                                <div class="day">Fri</div>
+                                <div class="day">Sat</div>
+                            </div>
+                            <div class="calendar-grid" id="calendar">
+                                <!-- Calendar days will be generated here -->
+                            </div>
+                        </div>
+                        <button id="prev-month">Previous Month</button>
+                        <button id="next-month">Next Month</button>
+                        <div id="event-display" class="event-display">
+                        </div>
+                    </div>
                 </div>
-                <p class="headline">Demographic Data:</p>
-                <p class="discovertext">Population: As of 2021, Irvine is home to approximately 313,685 residents, making it one of the largest city's in Orange County. The population has steadily grown over the years, reflecting the city's appeal as a great and safe place to
-                    live, work, and raise a family.</p>
-                <br>
-                <p class="headline">Ethnic Diversity:</p>
-                <p class="discovertext">Irvine, California, is a city that prides itself on its diversity. Irvine is home to people of all ages and cultures, making for unique food options. From Mexican to Japanese to American Cuisine, Irvine's diverse population ensures that
-                    there will be something new at every restaurant you visit..</p>
-                <br>
-                <p class="headline">Economic Strength:</p>
-                <p class="discovertext">Yes, the cost of living in Irvine is higher than in most cities in the United States. On the other hand, the economy here is robust and vibrant. One of the main reasons is that Irvine hosts several large employers within its city limit.
-                    There are only a few suburbs that can boast this fact. For example, the University of California, Irvine, employs nearly 16,000 people. Blizzard Entertainment, the city’s third-largest employer, is also located here and Verizon Wireless.
-                    In short, there are many high-paying positions within the city limits.</p>
-                <br>
-                <p class="headline">Education:</p>
-                <p class="discovertext">rvine boasts an excellent education system from kindergarten to 12th grade and beyond. If you have children, you can rest assured they’ll be getting an excellent education. If you’re a college student, there’s the University of California
-                    at Irvine, one of the country’s best schools. The Irvine Unified School District (IUSD) has been among the country’s most acceptable for years. Two high schools here are among California’s Distinguished Schools also due to their high
-                    standard of excellence. (Plus an elementary and two middle schools!) In other words, if education is important to you, Irvine won’t disappoint..</p>
-                <br>
-                <p class="headline">Outdoor Living:</p>
-                <p class="discovertext">We already mentioned how the weather in Irvine is quite lovely almost the entire year. What some people miss, however, is the change of seasons. The truth is, there isn’t any season change to speak of. The weather is relatively mild the
-                    entire year and doesn’t get extremely hot or cold. There isn’t even all that much rain. Just many sunny, calm days with low humidity and a few scattered clouds. (Wait, are we sure this is a Con?!) The good news is that there are mountains
-                    and skiing within Irvine’s driving distance.</p>
-                <br>
-                <p class="headline">Arts and Culture:</p>
-                <p class="discovertext">Irvine shines as a multicultural city. Not only is it home to people from different parts of the world but their traditions and cultures are wholeheartedly embraced. Whether it’s the Lunar New Year parades, vibrant Diwali lights, or the
-                    soulful rhythm of Latin dances, there’s always something to immerse oneself in. Plus, with cultural centers and events, you can learn, enjoy, and appreciate global cultures right in the heart of California..</p>
-                <br>
-                <p class="discovertext">Your safety and the safety of your loved ones is something you should never take for granted. In Irvine, you’ll find that they don’t take it for granted, either. Indeed, for the 15th year in a row, Irvine is the safest city of its size
-                    in the United States! In towns with a population of 250,000 or more, Irvine has the lowest violent crime rate per capita! (That’s according to the FBI’s annual Uniform Crime Report, which is very accurate.) One of the reasons is the
-                    excellent relationship between the police force and the community. Residents of Irvine give the cops very high grades for commitment and compassion. On the scale of Pros and Cons of Irvine, CA, its high safety level is a vast Pro on
-                    the list of The Pros And Cons Of Living in Irvine, California!</p>
-                <img class="harvest" src="images/Harvesters-Logo-2015.webp" alt="Irvine Discovery" loading="lazy">
 
             </div>
         </div>
@@ -181,6 +207,30 @@
 
     </footer>
 
+    <div class="calendar">
+        <div class="calendar-header">
+            <span id="month-year"></span>
+        </div>
+        <div class="calendar-days">
+            <div class="day">Sun</div>
+            <div class="day">Mon</div>
+            <div class="day">Tue</div>
+            <div class="day">Wed</div>
+            <div class="day">Thu</div>
+            <div class="day">Fri</div>
+            <div class="day">Sat</div>
+        </div>
+        <div class="calendar-grid" id="calendar">
+            <!-- Calendar days will be generated here -->
+        </div>
+    </div>
+    <button id="prev-month">Previous Month</button>
+    <button id="next-month">Next Month</button>
+    <div id="event-display" class="event-display">
+    </div>
+    </div>
+    </div>
+    <script src="scripts/calendar.js"></script>
     <script src="scripts/forecast.js"></script>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/localstorage.js"></script>
