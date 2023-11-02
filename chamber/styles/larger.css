@@ -58,14 +58,13 @@
     }
     .discover {
         display: grid;
-        grid-template-columns: 1fr 3fr 1fr;
     }
     .discover-left {
         display: block;
     }
     .discover-card picture img {
-        width: 200px;
-        height: 300px;
+        width: 400px;
+        height: px;
     }
     .join-van-cc {
         display: grid;
