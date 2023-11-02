@@ -169,7 +169,7 @@ footer a {
 h1 {
     font-size: 30px;
     margin: 0;
-    text-align: left;
+    text-align: Center;
 }
 
 h2 {
@@ -997,4 +997,46 @@ div.board figure picture img {
 .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+}
+
+
+/* Style individual calendar days as needed */
+
+.day-cell {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* Style today's date differently */
+
+.event-day {
+    background-color: #14213d;
+    /* Choose a color for event days */
+    color: #fff;
+    /* Choose a text color for event days */
+}
+
+
+/* Style today's date differently */
+
+.today {
+    background-color: #002a5c;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.event-display {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#prev-month {
+    color: #002a5c;
+}
+
+#next-month {
+    color: #002a5c;
 }
