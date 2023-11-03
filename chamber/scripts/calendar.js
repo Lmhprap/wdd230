@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const prevMonthButton = document.getElementById("prev-month");
 
     const events = {
-        '2023-11-08': 'Meet and Greet',
-        '2023-10-30': 'Halloween Business Mixer',
-        '2023-11-15': 'Meet and Greet',
-        '2023-12-09': 'Harvert Function',
+        '2023-11-08': 'Meet and Greet 🧑‍🤝‍🧑',
+        '2023-11-14': 'Meet and Greet 🧑‍🤝‍🧑',
+        '2023-11-20': 'Meet and Greet 🧑‍🤝‍🧑',
+        '2023-12-09': 'Harvert Function 😋',
         '2023-12-23': 'Chamber Christmas Party 🎅',
         // Add more events as needed
     };
