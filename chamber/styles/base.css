@@ -1043,6 +1043,7 @@ div.board figure picture img {
 
 .user-message {
     font-weight: bold;
+    color: red;
 }
 
 .sidebar-content {

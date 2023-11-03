@@ -12,7 +12,7 @@ if (typeof(Storage) !== "undefined") {
         document.getElementById("visitInfo").textContent = "Welcome! This is your first visit.";
     }
 
-    localStorage.setItem("lastVisit", new Date());
+    localStorage.setItem("lastVisit", Date.now());
 } else {
     document.getElementById("visitInfo").textContent = "Local storage is not supported on this browser.";
 }

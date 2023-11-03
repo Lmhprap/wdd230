@@ -1,18 +1,47 @@
-if (typeof(Storage) !== "undefined") {
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the last visit date from localStorage
     const lastVisit = localStorage.getItem("lastVisit");
 
     if (lastVisit) {
-        const currentDate = new Date();
-        const previousVisit = new Date(lastVisit);
-        const timeDiff = Math.abs(currentDate.getTime() - previousVisit.getTime());
-        const daysSinceVisit = Math.ceil(timeDiff / (1000 * 3600 * 24));
+        const currentDate = Date.now();
+        const timeDiff = currentDate - parseInt(lastVisit);
+        const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
-        document.getElementById("visitInfo").textContent = `${daysSinceVisit} days since your last visit.`;
+        const messageElement = document.getElementById("message");
+
+        if (daysDiff === 0) {
+            messageElement.textContent = "Back so soon! Awesome!";
+        } else if (daysDiff === 1) {
+            messageElement.textContent = "You last visited 1 day ago.";
+        } else {
+            messageElement.textContent = `You last visited ${daysDiff} days ago.`;
+        }
     } else {
-        document.getElementById("visitInfo").textContent = "Welcome! This is your first visit.";
+        localStorage.setItem("lastVisit", Date.now());
+        document.getElementById("message").textContent = "Welcome! Let us know if you have any questions.";
     }
 
-    localStorage.setItem("lastVisit", new Date());
-} else {
-    document.getElementById("visitInfo").textContent = "Local storage is not supported on this browser.";
-}
+    // Lazy load images when the user scrolls
+    const images = document.querySelectorAll("img[data-src]");
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.1,
+    };
+
+    const onIntersection = (entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                const image = entry.target;
+                image.src = image.getAttribute("data-src");
+                observer.unobserve(image);
+            }
+        });
+    };
+
+    const imageObserver = new IntersectionObserver(onIntersection, options);
+
+    images.forEach((img) => {
+        imageObserver.observe(img);
+    });
+});
