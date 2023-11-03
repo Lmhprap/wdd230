@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robert Phelps - WDD 230 - Irvine, California Chamber of Commerce</title>
-    <meta name="description" content="Greater Irvine Chamber of Commerce - Come Join Us!.">
+    <title>Robert Phelps - WDD 230 - Irvine, California Chamber of Commerce Join</title>
+    <meta name="description" content="Join the Irvine Chamber of Commerce and select your membership level.">
     <meta name="author" content="Robert A. Phelps">
     <link rel="icon" href="irv-favicon.ico">
     <meta property="og:title" content="Irvine California Chamber of Commerce">
@@ -14,9 +14,9 @@
     <meta property="og:image" content="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/styles/welcome_image/public/vc_irvine_irvinespectrumcenter_st_rm_486307227_1280x640.jpg">
     <meta property="og:url" content="https://lmhprap.github.io/wdd230/chamber/index.html">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="./chamber/styles/base.css">
-    <link rel="stylesheet" href="chamber/styles/medium.css">
-    <link rel="stylesheet" href="chamber/styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
 </head>
 
@@ -27,14 +27,14 @@
     </div>
     <header>
         <div class="headname">
-            <img class="logo" src="chamber/images/irvine-city-logo.webp" alt="Irvine Chamber">
+            <img class="logo" src="images/irvine-city-logo.webp" alt="Irvine Chamber">
             <div class="irv">Irvine California<br>Chamber of Commerce</div>
 
         </div>
         <div class="social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="chamber/images/fb-img.webp" alt="Facebook" class="sociallogo"></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img src="chamber/images/in-img.webp" alt="LinkedIn" class="sociallogo"></a>
-            <a href="https://www.twitter.com/" target="_blank"><img src="chamber/images/twitter.webp" alt="Twitter" class="sociallogo"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fb-img.webp" alt="Facebook" class="sociallogo"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/in-img.webp" alt="LinkedIn" class="sociallogo"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp" alt="Twitter" class="sociallogo"></a>
         </div>
         <div>
             <button id="hamburgerBtn"><span class="hamburger">&#9776;</span><span class="hamburger">X</span></button>
@@ -57,84 +57,129 @@
             <em>Enable Dark Mode</em>⚫
         </div>
     </header>
-    <main>
-        <div id="formmessage"></div>
-        <h1>Contact Us</h1>
-        <form method="get">
-            <p class="smaller">*️⃣ Indicates a required field</p>
 
-            <label for="fullname" class="req">Name</label>
-            <input type="text" id="fullname" name="fullname" required placeholder="Please enter your full name">
+    <main class="join-van-cc">
+        <h1 class="title">Join Our Chamber of Commerce</h1>
 
-            <label for="keyphrase">Password *️</label>
-            <input type="text" id="keyphrase" name="keyphrase" required pattern="[A-Za-z0-9_.].{8,}" placeholder="Eight or more characters">
-
-            <label for="keyphrase2">Re-enter Your Password *️</label>
-            <input type="text" id="keyphrase2" required name="keyphrase2">
-
-            <label for="email">Email:*️⃣</label>
-            <input type="email" id="email" required pattern=".+@byui\.edu" placeholder="e.g. Rap12345@byui.edu">
-            <br>
-
-            <label for="comments" class="req">Your Message *️</label>
-            <textarea id="comments" name="comments" required></textarea>
-
-            <label>INPUT: Please rate your experience!</label>
-            <div class="star-rating">
-                <input type="radio" name="stars" id="star-a" value="5">
-                <label for="star-a"></label>
-
-                <input type="radio" name="stars" id="star-b" value="4">
-                <label for="star-b"></label>
-
-                <input type="radio" name="stars" id="star-c" value="3">
-                <label for="star-c"></label>
-
-                <input type="radio" name="stars" id="star-d" value="2">
-                <label for="star-d"></label>
-
-                <input type="radio" name="stars" id="star-e" value="1">
-                <label for="star-e"></label>
+        <div class="join-lft">
+            <div class="container">
+                <span class="headline">Non-Profit</span>
+                <ul>
+                    <li>Connect with like-minded organizations and amplify your impact in the community.</li>
+                    <li>Gain visibility through our Chamber events and promotional channels.</li>
+                    <li>Access valuable networking opportunities to build strategic partnerships.</li>
+                    <li>Connect with other non-profit organizations to collaborate on community initiatives and create a greater impact together.</li>
+                    <li>Showcase your non-profit's mission and events through featured listings in our chamber publications and newsletters.</li>
+                    <li>Gain access to exclusive workshops and training sessions tailored specifically for non-profit organizations.</li>
+                </ul>
             </div>
+            <div class="container">
+                <span class="headline">Bronze ($100 month)</span>
+                <ul>
+                    <li>Enjoy all the benefits of the Non-Profit membership, plus:</li>
+                    <li>Listing in our online business directory, increasing your online presence.</li>
+                    <li>Exclusive invitations to educational seminars and workshops to enhance your business skills.</li>
+                    <li>Promote your business through our social media platforms, reaching a wider audience and increasing brand visibility.</li>
+                    <li>Attend monthly networking events and make valuable connections with fellow entrepreneurs and professionals in the area.</li>
+                    <li>Receive discounted rates for advertising opportunities in our Chamber's marketing materials, extending your reach even further.</li>
+                </ul>
+            </div>
+            <div class="container">
+                <span class="headline">Silver ($200 month)</span>
+                <ul>
+                    <li>Enjoy all the advantages of the Bronze membership, plus:</li>
+                    <li>Spotlight your business with enhanced visibility in our directory and on our website.</li>
+                    <li>Participate in our prestigious Chamber committees and influence local policies.</li>
+                    <li>Showcase your expertise as a guest speaker at Chamber events, positioning yourself as a thought leader in your industry.</li>
+                    <li>Receive priority access to sponsorship opportunities for Chamber programs and events, elevating your brand's recognition.</li>
+                    <li>Access member-exclusive business development workshops and seminars to refine your skills and stay ahead of industry trends.</li>
+                </ul>
+            </div>
+            <div class="container">
+                <span class="headline">Gold ($300 month)</span>
+                <ul>
+                    <li>Experience the ultimate membership package, incorporating all other membership level benefits, plus:</li>
+                    <li>Premier recognition as a Chamber supporter at our signature events.</li>
+                    <li>VIP access to exclusive networking receptions and business showcases.</li>
+                    <li>Enjoy prominent logo placement on our Chamber's website and event materials, maximizing your brand's visibility.</li>
+                    <li>Gain exclusive access to high-level networking events, connecting with influential community leaders and decision-makers.</li>
+                    <li>Receive a dedicated business profile feature in our Chamber's newsletter, highlighting your achievements and success stories.</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="form-container">
+            <p>Thank you for considering membership with us. By joining our Chamber, you become an integral part of a vibrant business community dedicated to growth, support, and success. Together, we can achieve great things.</p>
+            <p>As a member of the Irvine Chamber, you gain access to a wealth of invaluable resources and opportunities designed to help your business thrive.</p>
+            <img class="joinbridge" src="images/irvine-join.webp" alt="City of Irvine">
+            <form action="thankyou.html" method="get">
+                <h2>Chamber of Commerce Application</h2>
+                <p>Please fill out this form to create an account and select your membership level.</p>
+                <hr>
 
-            <button id="btnSubmit" type="submit">Send Message</button>
-            <input type="hidden" value="43aster">
-        </form>
+                <label class="top">First name* <input type="text" name="fname" required></label>
+                <label class="top">Last name* <input type="text" name="lname" required></label>
+                <label class="top">Business Name*<input type="text" name="business" required></label>
+                <label class="top">Position <input type="text" name="position" placeholder="Position in Organization" pattern="[a-zA-Z\s\-]{7,}" title="Please enter at least seven alpha characters, hyphens, or spaces."></label>
+                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email" pattern="(?![_.-])((?![_.-][_.-])[a-zA-Z\d_.-]){0,63}[a-zA-Z\d]@((?!-)((?!--)[a-zA-Z\d-]){0,63}[a-zA-Z\d]\.){1,2}([a-zA-Z]{2,14}\.)?[a-zA-Z]{2,14}"></label>
+                <label class="top">Cell Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <br>
+                <fieldset>
+                    <legend>Membership Levels:</legend>
+                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Non-Profit">  Non-Profit</label>
+                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Bronze">  Bronze Membership ($100)</label>
+                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Silver">  Silver Membership ($200)</label>
+                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Gold">  Gold Membership ($300)</label>
+                </fieldset>
+                <label class="top">Business Description<br><textarea name="description" rows="4"></textarea></label>
+                <input type="hidden" id="formDateTime" name="formDateTime" value="">
+
+                <input type="submit" class="submitBtn" value="Join the Irvine Chamber Today!">
+            </form>
+
+            <p>Your commitment to the Irvine Chamber allows us to provide essential resources, stimulate the local economy, and advocate for businesses like yours. Together, we can drive prosperity and foster a united community.</p>
+
+            <p>Should you have any questions or need further information about membership, our dedicated Chamber team is here to assist you. Feel free to contact us directly at 805-358-2712 or email joinirvine@IVCC.com. We're excited to have you on board!</p>
+
+            <p>Join the Irvine Chamber today and unlock the full potential of your business. Together, we'll thrive and shape the future of our community, one business at a time.</p>
+
+        </div>
 
 
     </main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="images/irv-logo.webp" alt="Irvine Chamber of Commerce Logo">
+        </div>
+        <div class="name-footer">
+            <h2>Irvine California<br>Chamber of Commerce</h2>
+            <p>333 Irvine Center Drive<br>Irvine, CA 12345</p>
+        </div>
+        <div class="contact">
+            <p>Email:rphelps@gmail.com</p>
+            <p>Phone #: 123-456-7891</p>
+            <p><a href="https://www.google.com/maps/place/Irvine,+CA/@33.6866371,-117.8559614,12z/data=!3m1!4b1!4m6!3m5!1s0x80dcdd0e689140e3:0xa77ab575604a9a39!8m2!3d33.6845673!4d-117.8265049!16zL20vMGQ3azF6?entry=ttu" target="_blank"> 📌Find Us</a></p>
+        </div>
+        <div class="foot-hr">
+            <hr>
+        </div>
+        <div class="otherinfo">
+            &copy;<span id="copyright"></span> Irvine California Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Robert A. Phelps&nbsp;&nbsp; |&nbsp;&nbsp;WDD 230 Chamber Project&nbsp;&nbsp;|&nbsp;&nbsp;
+            <p> Last Modified:<span id="dateModified"></span></p>
+        </div>
+        <div class="last-visit">
+            Last visit: <span id="visitInfo"></span>
+        </div>
 
-</body>
-
-<div class="logo-footer">
-    <img class="logo-footer" src="images/irv-logo.png" alt="Irvine Chamber of Commerce Logo">
-</div>
-<div class="name-footer">
-    <h2>Irvine California<br>Chamber of Commerce</h2>
-    <p>333 Irvine Center Drive<br>Irvine, CA 12345</p>
-</div>
-<div class="contact">
-    <p>Email:rphelps@gmail.com</p>
-    <p>Phone #: 123-456-7891</p>
-    <p><a href="https://www.google.com/maps/place/Irvine,+CA/@33.6866371,-117.8559614,12z/data=!3m1!4b1!4m6!3m5!1s0x80dcdd0e689140e3:0xa77ab575604a9a39!8m2!3d33.6845673!4d-117.8265049!16zL20vMGQ3azF6?entry=ttu" target="_blank"> 📌Find Us</a></p>
-</div>
-<div class="foot-hr">
-    <hr>
-</div>
-<div class="otherinfo">
-    &copy;<span id="copyright"></span> Irvine California Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Robert A. Phelps&nbsp;&nbsp; |&nbsp;&nbsp;WDD 230 Chamber Project&nbsp;&nbsp;|&nbsp;&nbsp;
-    <p> Last Modified:<span id="dateModified"></span></p>
-</div>
-</footer>
-<script src="scripts/script.js"></script>
-<script src="scripts/getDates.js "></script>
-<script src="scripts/hbutton.js "></script>
-<script src="scripts/visits.js"></script>
-<script src="scripts/form.js "></script>
-<script src="scripts/darkmode.js"></script>
-
-
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/chambermeet.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/lazyload.js"></script>
 
 </body>
 
