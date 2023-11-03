@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/form.css">
+    <title>Robert Phelps - WDD 230 - Irvine, California Chamber of Commerce</title>
+    <meta name="description" content="Greater Irvine Chamber of Commerce - Come Join Us!.">
+    <meta name="author" content="Robert A. Phelps">
+    <link rel="icon" href="irv-favicon.ico">
+    <meta property="og:title" content="Irvine California Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/styles/welcome_image/public/vc_irvine_irvinespectrumcenter_st_rm_486307227_1280x640.jpg">
+    <meta property="og:url" content="https://lmhprap.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="./chamber/styles/base.css">
+    <link rel="stylesheet" href="chamber/styles/medium.css">
+    <link rel="stylesheet" href="chamber/styles/larger.css">
+
 </head>
 
 
 <body>
-    <main>
-        <header>
+    <div id="chambermeet">
+        <p>📆 Come join us for our next chamber meet and greet Wednesday at 7:00 p.m. Light refreshments will be served</p>
+    </div>
+    <header>
+        <div class="headname">
+            <img class="logo" src="chamber/images/irvine-city-logo.webp" alt="Irvine Chamber">
+            <div class="irv">Irvine California<br>Chamber of Commerce</div>
 
-        </header>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="chamber/images/fb-img.webp" alt="Facebook" class="sociallogo"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="chamber/images/in-img.webp" alt="LinkedIn" class="sociallogo"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="chamber/images/twitter.webp" alt="Twitter" class="sociallogo"></a>
+        </div>
+        <div>
+            <button id="hamburgerBtn"><span class="hamburger">&#9776;</span><span class="hamburger">X</span></button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="date-hdr">
+            <p id="datetime"><span id="todayHeading"></span></p>
+        </div>
+        <div id="mode">
+            <em>Enable Dark Mode</em>⚫
+        </div>
+    </header>
+    <main>
         <div id="formmessage"></div>
         <h1>Contact Us</h1>
         <form method="get">
@@ -21,29 +65,35 @@
 
             <label for="fullname" class="req">Name</label>
             <input type="text" id="fullname" name="fullname" required placeholder="Please enter your full name">
-            <label for="keyphrase">Password</label>
-            <input type="text" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8,}" placeholder="At least eight characters long.">
-            <label for="keyphrase2">Re-enter Your Password</label>
-            <input type="text" id="keyphrase2" name="keyphrase2">
-            <label for="email" class="req">Email Address</label>
-            <input type="email" id="email" name="email" required placeholder="Please use your school email address">
-            <label for="comments" class="req">Your Message</label>
+
+            <label for="keyphrase">Password *️</label>
+            <input type="text" id="keyphrase" name="keyphrase" required pattern="[A-Za-z0-9_.].{8,}" placeholder="Eight or more characters">
+
+            <label for="keyphrase2">Re-enter Your Password *️</label>
+            <input type="text" id="keyphrase2" required name="keyphrase2">
+
+            <label for="email">Email:*️⃣</label>
+            <input type="email" id="email" required pattern=".+@byui\.edu" placeholder="e.g. Rap12345@byui.edu">
+            <br>
+
+            <label for="comments" class="req">Your Message *️</label>
             <textarea id="comments" name="comments" required></textarea>
+
             <label>INPUT: Please rate your experience!</label>
             <div class="star-rating">
-                <input type="radio" name="stars" id="star-a" value="5" />
+                <input type="radio" name="stars" id="star-a" value="5">
                 <label for="star-a"></label>
 
-                <input type="radio" name="stars" id="star-b" value="4" />
+                <input type="radio" name="stars" id="star-b" value="4">
                 <label for="star-b"></label>
 
-                <input type="radio" name="stars" id="star-c" value="3" />
+                <input type="radio" name="stars" id="star-c" value="3">
                 <label for="star-c"></label>
 
-                <input type="radio" name="stars" id="star-d" value="2" />
+                <input type="radio" name="stars" id="star-d" value="2">
                 <label for="star-d"></label>
 
-                <input type="radio" name="stars" id="star-e" value="1" />
+                <input type="radio" name="stars" id="star-e" value="1">
                 <label for="star-e"></label>
             </div>
 
@@ -54,7 +104,40 @@
 
 
     </main>
-    <script src="scripts/form.js "></script>
+
+</body>
+
+
+<footer>
+    <div class="logo-footer">
+        <img class="logo-footer" src="images/irv-logo.png" alt="Irvine Chamber of Commerce Logo">
+    </div>
+    <div class="name-footer">
+        <h2>Irvine California<br>Chamber of Commerce</h2>
+        <p>333 Irvine Center Drive<br>Irvine, CA 12345</p>
+    </div>
+    <div class="contact">
+        <p>Email:rphelps@gmail.com</p>
+        <p>Phone #: 123-456-7891</p>
+        <p><a href="https://www.google.com/maps/place/Irvine,+CA/@33.6866371,-117.8559614,12z/data=!3m1!4b1!4m6!3m5!1s0x80dcdd0e689140e3:0xa77ab575604a9a39!8m2!3d33.6845673!4d-117.8265049!16zL20vMGQ3azF6?entry=ttu" target="_blank"> 📌Find Us</a></p>
+    </div>
+    <div class="foot-hr">
+        <hr>
+    </div>
+    <div class="otherinfo">
+        &copy;<span id="copyright"></span> Irvine California Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Robert A. Phelps&nbsp;&nbsp; |&nbsp;&nbsp;WDD 230 Chamber Project&nbsp;&nbsp;|&nbsp;&nbsp;
+        <p> Last Modified:<span id="dateModified"></span></p>
+    </div>
+</footer>
+<script src="scripts/script.js"></script>
+<script src="scripts/getDates.js "></script>
+<script src="scripts/hbutton.js "></script>
+<script src="scripts/visits.js"></script>
+<script src="scripts/form.js "></script>
+<script src="scripts/darkmode.js"></script>
+
+
+
 </body>
 
 </html>
