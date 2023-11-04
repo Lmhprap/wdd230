@@ -261,7 +261,7 @@ input::placeholder {
 }
 
 #formmessage {
-    visibility: none;
+    visibility: hidden;
     margin: 10px;
     padding: 0.5rem;
     color: red;
