@@ -1091,6 +1091,7 @@ button {
     padding: 10px;
     font-size: 1.2rem;
     font-weight: 700;
+    background-color: #dda15e;
 }
 
 label {
@@ -1200,7 +1201,7 @@ input::placeholder {
     content: '\2606';
     position: absolute;
     top: 0px;
-    line-height: 26px;
+    line-height: 30px;
 }
 
 
