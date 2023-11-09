@@ -122,22 +122,22 @@
                 <label class="top">First name* <input type="text" name="fname" required></label>
                 <label class="top">Last name* <input type="text" name="lname" required></label>
                 <label class="top">Business Name*<input type="text" name="business" required></label>
-                <label class="top">Position <input type="text" name="position" placeholder="Position in Organization" pattern="[a-zA-Z\s\-]{7,}" title="Please enter at least seven alpha characters, hyphens, or spaces."></label>
-                <label class="top">Email* <input type="email" required placeholder="someone@gmail.com" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"></input>
+                <label class="top">Position <input type="text" name="position" placeholder="Position in Organization" pattern="[a-zA-Z\s\-]{8,}" title="Please enter at least seven alpha characters, hyphens, or spaces."></label>
+                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email" required></label>
                 <label class="top">Cell Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
                 <br>
                 <fieldset>
                     <legend>Membership Levels:</legend>
-                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Non-Profit">  Non-Profit</label>
-                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Bronze">  Bronze Membership ($100)</label>
-                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Silver">  Silver Membership ($200)</label>
-                    <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Gold">  Gold Membership ($300)</label>
+                <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Non-Profit">  Non-Profit</label>
+                <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Bronze">  Bronze Membership ($100)</label>
+                <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Silver">  Silver Membership ($200)</label>
+                <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Gold">  Gold Membership ($300)</label>
                 </fieldset>
                 <label class="top">Business Description<br><textarea name="description" rows="4"></textarea></label>
                 <input type="hidden" id="formDateTime" name="formDateTime" value="">
-
-                <input type="submit" class="submitBtn" value="Join the Irvine Chamber Today!">
-            </form>
+    
+                <input type="submit" class="submitBtn" value="Join the Chamber!">
+              </form> 
 
             <p>Your commitment to the Irvine Chamber allows us to provide essential resources, stimulate the local economy, and advocate for businesses like yours. Together, we can drive prosperity and foster a united community.</p>
 
