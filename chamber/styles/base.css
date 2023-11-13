@@ -1115,7 +1115,7 @@ input::placeholder {
     color: red;
 }
 
-#keyphrase:invalid {
+#password:invalid {
     background-color: #fff0f3;
     animation: shaketext 500ms;
 }
