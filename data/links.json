@@ -14,15 +14,15 @@
         {
             "lesson": "02",
             "links": [{
-                    "url": "lesson02/design.html",
+                    "url": "lesson2/design.html",
                     "title": "Web Design Codepen"
                 },
                 {
-                    "url": "lesson02/media-query.html",
+                    "url": "lesson1/media-query.html",
                     "title": "Media Query"
                 },
                 {
-                    "url": "lesson2/design.html",
+                    "url": "lesson2/design-principles.html",
                     "title": "Design Principles"
                 }
             ]
