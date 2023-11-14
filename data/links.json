@@ -8,7 +8,7 @@
             "title": "Holy Grail"
           },
           {
-            "url": "https://codepen.io/qjnaef15/pen/oNJwvKg",
+            "url": "https://codepen.io/lmhprap/pen/oNJwvKg",
             "title": "Code Pen"
           }
         ]
@@ -25,7 +25,7 @@
             "title": "Media Query"
           },
           {
-            "url": "lesson02/design-principles.html",
+            "url": "lesson02/design.html",
             "title": "Design Principles"
           }
         ]
@@ -121,8 +121,8 @@
         "lesson": "10",
         "links": [
           {
-            "url": "#",
-            "title": "Activity 10"
+            "url": "lesson05/weather.html",
+            "title": "Weather API"
           }
         ]
       }
