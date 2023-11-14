@@ -1034,11 +1034,11 @@ div.board figure picture img {
 }
 
 #prev-month {
-    color: #002a5c;
+    color: white;
 }
 
 #next-month {
-    color: #002a5c;
+    color: white;
 }
 
 .user-message {
@@ -1091,7 +1091,7 @@ button {
     padding: 10px;
     font-size: 1.2rem;
     font-weight: 700;
-    background-color: #dda15e;
+    background-color: #153F65;
 }
 
 label {

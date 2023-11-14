@@ -176,6 +176,11 @@
         padding: 10px;
         margin: 10px 5px;
         text-align: center;
+        border:2px soild #eee;
+        margin: 15px 15px;
+        -webkit-box-shadow: 2px 3px 8px #153F65;
+        -moz-box-shadow: 2px 3px 8px #153F65;
+        box-shadow: 2px 3px 8px #153F65;
     }
     .weather-forcast-img {
         filter: drop-shadow(4px 4px 4px rgb(124, 124, 124));
