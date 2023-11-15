@@ -274,3 +274,70 @@ iframe {
     height: 450px;
     border: 0;
 }
+
+
+/* Weather Section */
+
+.weathercontainer {
+    display: none;
+}
+
+#weather-info {
+    margin: 0;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content auto;
+}
+
+.weather-headline {
+    grid-column: 1/3;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.weather-img {
+    float: left;
+    filter: drop-shadow(6px 6px 6px #153F65);
+    grid-column: 1/2;
+}
+
+.weather-forecast-img {
+    display: flex;
+    filter: drop-shadow(6px 6px 6px #153F65);
+}
+
+.weather-temp {
+    grid-column: 2/3;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-description {
+    grid-column: 1/3;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr.weather-description {
+    margin: 5px 0px;
+}
+
+.weather-speed {
+    grid-column: 1/3;
+    font-size: 14px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.weather-chill {
+    grid-column: 1/3;
+    font-size: 14px;
+    text-align: center;
+}
