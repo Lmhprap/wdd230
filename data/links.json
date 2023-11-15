@@ -1,131 +1,115 @@
 {
-    "lessons": [
-      {
-        "lesson": "01",
-        "links": [
-          {
-            "url": "lesson1/holygrail.html",
-            "title": "Holy Grail"
-          },
-          {
-            "url": "https://codepen.io/lmhprap/pen/oNJwvKg",
-            "title": "Code Pen"
-          }
-        ]
-      },
-      {
-        "lesson": "02",
-        "links": [
-          {
-            "url": "lesson02/design.html",
-            "title": "Web Design Codepen"
-          },
-          {
-            "url": "lesson02/media-query.html",
-            "title": "Media Query"
-          },
-          {
-            "url": "lesson2/design.html",
-            "title": "Design Principles"
-          }
-        ]
-      },
-      {
-        "lesson": "03",
-        "links": [
-          {
-            "url": "lesson03/images/combinators.png",
-            "title": "CSS Combinators"
-          },
-          {
-            "url": "https://codepen.io/qjnaef15/pen/abPqWxp",
-            "title": "CSS Pseudo Elements"
-          },
-          {
-            "url": "https://codepen.io/qjnaef15/pen/JjwpJGr",
-            "title": "Responsive Menu"
-          }
-        ]
-      },
-      {
-        "lesson": "04",
-        "links": [
-          {
-            "url": "https://codepen.io/qjnaef15/pen/wvREePr",
-            "title": "CSS Pseudo Classes"
-          }
-        ]
-      },
-      {
-        "lesson": "05",
-        "links": [
-          {
-            "url": "lesson05/bom.html",
-            "title": "DOM Manipulation"
-          }
-        ]
-      },
-      {
-        "lesson": "06",
-        "links": [
-          {
-            "url": "lesson06/images/landscape.webp",
-            "title": "WebP"
-          }
-        ]
-      },
-      {
-        "lesson": "07",
-        "links": [
-          {
-            "url": "lesson07/lazyload.html",
-            "title": "Lazy Loading"
-          },
-          {
-            "url": "lesson07/bom.html",
-            "title": "localStorage"
-          }
-        ]
-      },
-      {
-        "lesson": "08",
-        "links": [
-          {
-            "url": "lesson08/tablebuild.html",
-            "title": "Table Build"
-          },
-          {
-            "url": "lesson08/index.html",
-            "title": "HTML Build"
-          },
-          {
-            "url": "form.html",
-            "title": "Form Build"
-          }
-        ]
-      },
-      {
-        "lesson": "09",
-        "links": [
-          {
-            "url": "lesson05/new-ward-members.json",
-            "title": "JSON"
-          },
-          {
-            "url": "lesson05/prophets.html",
-            "title": "The Fetch AP"
-          }
-        ]
-      },
-      {
-        "lesson": "10",
-        "links": [
-          {
-            "url": "lesson05/weather.html",
-            "title": "Weather API"
-          }
-        ]
-      }
+    "lessons": [{
+            "lesson": "01",
+            "links": [{
+                    "url": "lesson1/holygrail.html",
+                    "title": "Holy Grail"
+                },
+                {
+                    "url": "https://codepen.io/lmhprap/pen/oNJwvKg",
+                    "title": "Code Pen"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [{
+                    "url": "lesson02/design.html",
+                    "title": "Web Design Codepen"
+                },
+                {
+                    "url": "lesson02/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "lesson2/design.html",
+                    "title": "Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [{
+                    "url": "lesson03/images/combinators.png",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://codepen.io/Robert-Phelps/pen/ExGoOVv",
+                    "title": "CSS Pseudo Elements"
+                },
+                {
+                    "url": "https://codepen.io/Robert-Phelps/pen/yLGKxYM",
+                    "title": "Responsive Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [{
+                "url": "https://codepen.io/Robert-Phelps/pen/ZEVqyxM",
+                "title": "CSS Pseudo Classes"
+            }]
+        },
+        {
+            "lesson": "05",
+            "links": [{
+                "url": "lesson05/bom.html",
+                "title": "DOM Manipulation"
+            }]
+        },
+        {
+            "lesson": "06",
+            "links": [{
+                "url": "lesson06/images/landscape.webp",
+                "title": "WebP"
+            }]
+        },
+        {
+            "lesson": "07",
+            "links": [{
+                    "url": "lesson03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "localStorage"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [{
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "lesson08/index.html",
+                    "title": "HTML Build"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Form Build"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [{
+                    "url": "lesson05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "lesson05/prophets.html",
+                    "title": "The Fetch AP"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [{
+                "url": "lesson05/weather.html",
+                "title": "Weather API (Trier, Germany)"
+            }]
+        }
     ]
-  }
-  
+}
