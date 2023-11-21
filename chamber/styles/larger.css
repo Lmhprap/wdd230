@@ -237,4 +237,9 @@
                 line-height: 21px;
             }
         }
+        header div nav ul li.active a {
+            background-color: var(--accent2-color);
+            color: #000;
+          }
     }
+    

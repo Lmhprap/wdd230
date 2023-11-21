@@ -209,6 +209,10 @@
         height: 275px;
         width: 205px;
     }
+    header div nav ul li.active a {
+        background-color: var(--accent2-color);
+        color: #000;
+      }
 }
 
 
