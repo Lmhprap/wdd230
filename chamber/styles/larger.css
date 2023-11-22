@@ -214,7 +214,8 @@
         }
         /* give label a hover state */
         .star-rating label:hover {
-            color: #ff69b4;
+            color: red
+            ;
             transition: 0.2s ease;
         }
         .star-rating label:active::before {
