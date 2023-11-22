@@ -248,7 +248,7 @@ header div nav ul li a {
   }
 
   header div nav ul li.active a {
-    background-color: var(--accent2-color);
+    background-color: #153F65;
     color: #000;
   }
 
@@ -788,7 +788,7 @@ legend {
     grid-template-columns: 2fr 1fr;
     padding: 20px;
     margin: 12px;
-    background-color: #bad9f5;
+    background-color: rgba(96, 108, 56, 0.2);
     border: 2px #153F65 solid;
     border-radius: 3px;
 }
