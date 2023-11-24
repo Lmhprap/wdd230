@@ -1,6 +1,6 @@
-const apiKey = 'bb06f83ae63888ef53975084692c8460';
-const latitude = 45.6387;
-const longitude = -122.6615;
+const apiKey = '409f49352438f14dff06e48ea197cb14';
+const latitude = 33.6846;
+const longitude = -117.8265;
 
 const APIurl = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
 
