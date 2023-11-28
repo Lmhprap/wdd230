@@ -1,0 +1,144 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+	header,
+	nav,
+	main,
+	footer {
+		max-width: 64rem;
+		margin: auto;
+	}
+
+	/* Navigation Bar */
+
+	nav button {
+		display: none;
+	}
+
+	nav ul.hide {
+		display: block;
+	}
+
+	nav ul {
+		margin-left: 2%;
+	}
+
+	nav ul li {
+		float: left;
+	}
+
+	nav ul li a {
+		border: none;
+		border-right: 1px solid rgba(0, 0, 0, 0.3);
+		padding: 0.6rem 1rem;
+	}
+
+	/* Type Rental Section */
+
+	section.type {
+		background-color: #faf3dd;
+	}
+
+	div.type-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-gap: 10px;
+		margin: 10px;
+		padding-bottom: 20px;
+
+	}
+
+	section.type figure {
+		border: 1px solid black;
+		text-align: center;
+		background-color: #aed9e0;
+		margin: 0.5rem;
+	}
+
+	section.type figcaption {
+		margin: 1rem;
+		font-size: 1.2rem;
+
+	}
+
+
+	/* Weather Information */
+
+	.grid-today {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+
+	}
+
+	.grid-forecast {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+
+	}
+
+	section#weatherforecast div:nth-child(1) {
+		display: none;
+	}
+
+	section#weatherforecast div:nth-child(6) {
+		text-align: center;
+		border: 1px solid #999;
+	}
+
+	/* Contact us */
+
+	div.contact-us-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		grid-gap: 5px;
+	}
+
+	/* rentals.html*/
+
+	div.rental-icons-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+
+	}
+
+	/* reservations.html */
+
+	.reservation-info {
+		font-family: sans-serif;
+		font-size: 0.9rem;
+		max-width: 50%;
+		margin-right: 40px;
+		padding: 50px 12px;
+		justify-content: center;
+	}
+
+	/* tours.html */
+
+
+	.tours-grid {
+		display: grid;
+		grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+		grid-gap: 10px;
+		margin-top: 20px;
+		
+	}
+	
+	.tour-space {
+	margin-top: -40px;
+}
+	
+
+/* Footer */
+
+	.footer {
+		margin: 10px;
+	}
+
+}
+
+/*Validated: no errors*/

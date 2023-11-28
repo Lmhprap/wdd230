@@ -1,0 +1,52 @@
+{
+    "vehiclesData": [{
+            "rentalType": "Honda Metropolitan Scooter",
+            "maxPersons": 1,
+            "reservationHalfDay": 20,
+            "reservationFullDay": 30,
+            "walkInhalfDay": 25,
+            "walkInfullfDay": 35
+        },
+        {
+            "rentalType": "Honda Dio Scooter",
+            "maxPersons": 2,
+            "reservationHalfDay": 30,
+            "reservationFullDay": 40,
+            "walkInhalfDay": 35,
+            "walkInfullfDay": 45
+        },
+        {
+            "rentalType": "Honda PCX150 Scooter",
+            "maxPersons": 2,
+            "reservationHalfDay": 40,
+            "reservationFullDay": 50,
+            "walkInhalfDay": 45,
+            "walkInfullfDay": 55
+        },
+        {
+            "rentalType": "Honda Pioneer 1000 ATV",
+            "maxPersons": 4,
+            "reservationHalfDay": 50,
+            "reservationFullDay": 70,
+            "walkInhalfDay": 60,
+            "walkInfullfDay": 80
+        },
+        {
+            "rentalType": "Jeep Wrangler - 4 door - W/AC",
+            "maxPersons": 5,
+            "reservationHalfDay": 70,
+            "reservationFullDay": 100,
+            "walkInhalfDay": 85,
+            "walkInfullfDay": 125
+        },
+        {
+            "rentalType": "Jeep Wrangler - 2 door - Open Air",
+            "maxPersons": 4,
+            "reservationHalfDay": 60,
+            "reservationFullDay": 85,
+            "walkInhalfDay": 70,
+            "walkInfullfDay": 90
+        }
+
+    ]
+}

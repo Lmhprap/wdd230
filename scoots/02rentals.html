@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Rentals</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--CSS style-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo/download.webp" alt="logo"></a>
+        </div>
+        <h1>"Cozumel, where adventure awaits."</h1>
+
+    </header>
+
+    <!--Navigation Bar-->
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="02rentals.html">Rentals</a></li>
+            <li><a href="03reservations.html">Reservations</a></li>
+            <li><a href="04tours.html">Tours</a></li>
+            <li><a href="05contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Main Content-->
+
+    <main>
+
+        <!--Full offer using Flex-->
+
+        <div class="container">
+
+            <div class="box"><img src="images/types-rental/typesx300/01bisx300.webp" alt=""></div>
+            <div class="box"><img src="images/types-rental/typesx300/02bisx300.webp" alt=""></div>
+            <div class="box"><img src="images/types-rental/typesx300/03bisx300.webp" alt=""></div>
+            <div class="box"><img src="images/types-rental/typesx300/04bisx300.webp" alt=""></div>
+            <div class="box"><img src="images/types-rental/typesx300/05bisx300.webp" alt=""></div>
+            <div class="box"><img src="images/types-rental/typesx300/06bisx300.webp" alt=""></div>
+
+        </div>
+
+        <!--A call to action to make a rental reservation.-->
+
+
+        <!--Chart Price-->
+
+        <div class="rentals">
+            <table id="chartprice">
+                <thead>
+                    <tr>
+                        <th class="chart-title" colspan="6">Max Persons and Price Chart (includes Tax)</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2"></th>
+                        <th colspan="2">Reservation</th>
+                        <th colspan="2">Walk-In</th>
+                    </tr>
+                    <tr>
+                        <th>Rental Type</th>
+                        <th>Max. Persons</th>
+                        <th>Half Day (3hrs)</th>
+                        <th>Full Day</th>
+                        <th>Half Day (3hrs)</th>
+                        <th>Full Day</th>
+                    </tr>
+                    <tbody></tbody>
+            </table>
+        </div>
+
+        <!--Rental Information-->
+
+        <div class="rental-info">
+            <h3>Rental Requirements</h3>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at time of rental.</li>
+                <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is free of charge.</li>
+                <li>Reservations rate requires 24 hour prior notification.</li>
+                <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                <li>Rentals may be returned to either location.</li>
+            </ul>
+
+        </div>
+        <!--A call to action to make a rental reservation.-->
+        <section>
+            <button class="btn-reservations" type="button" onclick="window.location.href='03reservations.html';">Make a Reservation NOW!</button>
+        </section>
+
+        <!--Social media links-->
+
+        <div class="rental-icons-grid">
+            <div>
+                <img src="images/rental-icons/01-road.png" alt="Metropolitan">
+                <h3>With you in your day-to-day trip</h3>
+                <p>We plan your trip online</p>
+            </div>
+
+            <div>
+                <img src="images/rental-icons/02-unlimit.png" alt="Metropolitan">
+                <h3>Rent online</h3>
+                <p>Motorcycles and cars just one click away</p>
+            </div>
+
+            <div>
+                <img src="images/rental-icons/03-english.png" alt="Metropolitan">
+                <h3>Help Desk</h3>
+                <p>Support in English 24/7</p>
+            </div>
+
+        </div>
+
+
+
+
+
+        <!--Social media links-->
+
+        <section class="social-media">
+            <a href="https://www.whatsapp.com" target="_blank"><img src="images/social-media/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/social-media/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/social-media/instagram.png" alt="instagram"></a>
+            <a href="https://www.pinterest.com" target="_blank"><img src="images/social-media/pinterest.png" alt="pinterest"></a>
+            <!--<a href="https://www.twitter.com" target="_blank"><img src="images/social-media/twitter.png" alt="twitter"></a>-->
+        </section>
+
+        <!--Contact Section-->
+
+        <section>
+            <div class="contact-us-grid">
+
+                <div class="contact-us-text">Address: <br><br> Calle Mayor s/n <br><br> San Miguel de Cozumel <br> Quintana Roo (Mexico) <br><br> Open: 9:00 - 21:00 <br> Monday to Saturday</div>
+
+                <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21140.750137909425!2d-86.9411692630956!3d20.498356237755164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1608128148219!5m2!1ses!2sar" width="350" height="350"
+                        allowfullscreen="" aria-hidden="false" tabindex="0" id="map"></iframe></div>
+
+                <div class="contact-us-text">Phone:<br> +(52) 555-123-456 <br><br> E-mail:<br> info@scoots.com <br><br> Fax:<br>+(52) 555-123-457 </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Jorge Alvarez Grana | BYU-Idaho WDD230 |
+        <span class="footer-date">Date: <span id="currentdate"></span></span>
+        <script src="scripts/scripts.js"></script>
+        <script src="scripts/rentals.js"></script>
+    </footer>
+    <div class="footer"></div>
+
+</body>
+
+</html>
+<!--Validated: just warning on using headings on sections-->

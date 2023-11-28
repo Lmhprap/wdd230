@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Robert A. Phelps">
+    <meta name="description" content="Scoots Rental Cozumel Mexico">
+    <link rel="icon" href="favicon.ico">
+    <title>"Cozumel, where adventure awaits."</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!--CSS style-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo/download.webp" alt="logo"></a>
+            <h1>"Cozumel, where adventure awaits."</h1>
+        </div>
+
+
+    </header>
+
+    <!--Navigation Bar-->
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="02rentals.html">Rentals</a></li>
+            <li><a href="03reservations.html">Reservations</a></li>
+            <li><a href="04tours.html">Tours</a></li>
+            <li><a href="05contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Main Content-->
+
+    <main>
+        <figure class="main-image">
+            <h1>Adventure byt the hour</h1>
+            <img src="images/a47aca_6fa81ce6129c40f68029361a5116706f~mv2.webp" alt="tour">
+
+        </figure>
+
+        <!--Call to Action - Reservation.-->
+        <section>
+            <button class="btn-reservations" type="button" onclick="window.location.href='03reservations.html';">Reserve Yours Today! 😎</button>
+        </section>
+
+        <!--WEATHER SECTION-->
+
+        <div class="grid-weather weather-summary">
+
+            <div class="grid-today">
+
+                <h4 class="weather-summary-white today"><strong>Current Cozemal Weather</strong></h4>
+                <p class="weather-summary-white">
+                    Currently: <span class="weather-summary-color" id="currentWeather"></span><br> Current Temp: <span class="weather-summary-color" id="currentTemp"></span><br>
+                    <!--Highest Temp: <span class="weather-summary-color" id="maxTemp"></span><br>-->
+                    Feels Like: <span class="weather-summary-color" id="feelsLike"></span><br> Humidity: <span class="weather-summary-color" id="humidity"></span> <br> Wind Speed: <span class="weather-summary-color" id="windSpeed"></span> <br>
+                </p>
+
+            </div>
+
+            <section class="grid-forecast" id="weatherforecast">
+                <div id="theDay"></div>
+            </section>
+
+        </div>
+
+        <!--Social media links-->
+
+        <section class="social-media">
+            <div class="follow-ussm">
+            </div>
+            <h3>Follow Us on Social Media:</h3>
+            <a href="https://www.whatsapp.com" target="_blank"><img src="images/social-media/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/social-media/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/social-media/instagram.png" alt="instagram"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/social-media/twitter.png" alt="twitter"></a>
+        </section>
+
+        <!--Contact Section-->
+
+        <section>
+            <div class="contact-us-grid">
+
+                <div class="contact-us-text">Address: <br><br> Calle Mayor s/n <br><br> San Miguel de Cozumel <br> Quintana Roo (Mexico) <br><br> Open: 9:00 - 21:00 <br> Monday to Saturday</div>
+
+                <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21140.750137909425!2d-86.9411692630956!3d20.498356237755164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1608128148219!5m2!1ses!2sar" width="350" height="350"
+                        title="WDD230 Map Assignment" allowfullscreen="" aria-hidden="false" tabindex="0" id="map"></iframe></div>
+
+                <div class="contact-us-text">Phone:<br> +(52) 555-123-456 <br><br> E-mail:<br> info@scoots.com <br><br> Fax:<br>+(52) 555-123-457 </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2023 | Robert A. Phelps | BYU-Idaho WDD230 |
+        <span class="footer-date">Date: <span id="currentdate"></span></span>
+        <script src="scripts/scripts.js"></script>
+    </footer>
+    <div class="footer"></div>
+
+</body>
+
+</html>
+<!--Validated: just warning on using headings on sections-->
