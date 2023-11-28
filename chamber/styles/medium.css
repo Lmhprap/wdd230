@@ -176,7 +176,7 @@
         padding: 10px;
         margin: 10px 5px;
         text-align: center;
-        border:2px soild #eee;
+        border: 2px #eee solid;
         margin: 15px 15px;
         -webkit-box-shadow: 2px 3px 8px #153F65;
         -moz-box-shadow: 2px 3px 8px #153F65;
@@ -212,7 +212,7 @@
     header div nav ul li.active a {
         background-color: var(--accent2-color);
         color: #000;
-      }
+    }
 }
 
 
