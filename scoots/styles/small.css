@@ -321,7 +321,6 @@ tr {
 
 .container {
     display: flex;
-    flex-wrap: nowrap;
 }
 
 div.container img {
