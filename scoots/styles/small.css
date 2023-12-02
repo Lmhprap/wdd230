@@ -321,6 +321,7 @@ tr {
 
 .container {
     display: flex;
+    margin: auto;
 }
 
 div.container img {
