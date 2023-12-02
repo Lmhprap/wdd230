@@ -135,12 +135,13 @@ section button {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 30px;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
+    font-weight: bolder;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: #eb4536;
+    background-color: rgb(218, 47, 47);
     box-shadow: 0px 0px 15px 0px #262222;
 }
 
@@ -203,12 +204,13 @@ h4.weather-summary-white {
 
 .weather-summary-yellow {
     color: black;
+    font-weight: bolder;
 }
 
 .grid-forecast {
     border: 1px solid black;
     margin: 2rem;
-    background-color: #7079fb;
+    background-color: rgb(88, 163, 238);
     font-weight: bold;
 }
 
@@ -225,7 +227,7 @@ p.weather-summary-white {
 }
 
 .weather-summary-color {
-    color: rgb(5, 5, 197);
+    color: #153F65;
 }
 
 
