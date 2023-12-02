@@ -433,13 +433,17 @@ form label.top input:required:valid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1%;
+    grid-gap: 10%;
+    margin-top: 10%;
 }
 
 .tours-grid p {
     font-family: sans-serif;
     padding-right: 10px;
-    margin-top: 0;
+    margin-top: 3%;
+    font-size: large;
+    padding-top: 2%;
+    padding
 }
 
 .tour-space {
