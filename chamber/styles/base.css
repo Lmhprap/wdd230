@@ -245,12 +245,12 @@ header div nav ul li a {
     font-size: 1.2rem;
     margin: 0;
     text-align: center;
-  }
+}
 
-  header div nav ul li.active a {
+header div nav ul li.active a {
     background-color: #153F65;
     color: #000;
-  }
+}
 
 header div nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -1235,4 +1235,3 @@ input::placeholder {
     font-weight: bolder;
     font-size: x-large;
 }
-

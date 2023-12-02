@@ -115,6 +115,10 @@ figure.main-image {
     margin: -8px;
 }
 
+.main h1 {
+    text-align: center;
+}
+
 
 /* A call to action: Reservation Button */
 
@@ -124,17 +128,20 @@ section button {
 }
 
 .btn-reservations {
+    position: relative;
     font-family: sans-serif;
     border: 2px solid black;
     line-height: 2.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 0 30px;
     font-size: 1.2rem;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
-    border-radius: 25px;
-    background-color: #FC1B07;
-    box-shadow: 0px 0px 5px 0px #262222;
+    border-radius: 10px;
+    background-color: #eb4536;
+    box-shadow: 0px 0px 15px 0px #262222;
 }
 
 .btn-reservations:hover {
@@ -321,6 +328,11 @@ div.container img {
     text-align: center;
 }
 
+div.container img :hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
 div.rental-icons-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -358,9 +370,10 @@ form fieldset {
 }
 
 form legend {
-    color: #445ba9;
+    color: #01030c;
     margin: 0 1rem;
     padding: 0 0.5rem;
+    font-weight: bold
 }
 
 form label.top,
