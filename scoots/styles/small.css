@@ -25,7 +25,7 @@ footer {
 img {
     max-width: 100%;
     text-align: center;
-    box-shadow: inset 0px 0px 20px 20px #153F65;
+    box-shadow: inset 1px 1px 30px 25px #153F65;
     border-radius: 10px;
 }
 
@@ -137,7 +137,7 @@ section button {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 30px;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     text-align: center;
     color: #fff;
@@ -149,6 +149,10 @@ section button {
 
 .btn-reservations:hover {
     background-color: rgb(8, 8, 63);
+    color: #fff;
+    box-shadow: inset 0px 2px 4px rgba(0, 255, 255, 0.3), inset 0px 10px 10px rgba(0, 255, 255, 0.3), inset 0px 8px 16px rgba(0, 255, 255, 0.3);
+    transition: 0.2s;
+    transform: translateY(2px);
 }
 
 
