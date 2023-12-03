@@ -22,11 +22,10 @@ footer {
     padding: 0.5rem 2%;
 }
 
-body {
+img {
     max-width: 100%;
     text-align: center;
     border-radius: 10px;
-    background-color: whitesmoke
 }
 
 
@@ -60,12 +59,11 @@ header h1 {
 
 nav button {
     margin: 0.2rem 2%;
-    background-color: #153F65;
+    background-color: transparent;
     border: 3px solid black;
     font-size: 1.2rem;
     color: #fff;
     flex-direction: column;
-    font-weight: bolder;
 }
 
 nav {
@@ -138,7 +136,7 @@ section button {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 30px;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: bolder;
     text-align: center;
     color: #fff;
@@ -150,10 +148,6 @@ section button {
 
 .btn-reservations:hover {
     background-color: rgb(8, 8, 63);
-    color: #fff;
-    box-shadow: inset 0px 2px 4px rgba(0, 255, 255, 0.3), inset 0px 10px 10px rgba(0, 255, 255, 0.3), inset 0px 8px 16px rgba(0, 255, 255, 0.3);
-    transition: 0.2s;
-    transform: translateY(2px);
 }
 
 
@@ -272,7 +266,7 @@ div.contact-us-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 10px;
-    background-color: rgb(125, 127, 125);
+    background-color: rgb(119, 121, 119);
     margin: 0 auto 50px auto;
     padding: 20px;
 }
@@ -280,9 +274,9 @@ div.contact-us-grid {
 .contact-us-text {
     padding: 5%;
     text-align: center;
-    color: rgb(6, 0, 0);
-    font-size: 1.1rem;
-    font-weight: bolder;
+    color: white;
+    font-size: 1.0rem;
+    padding-top: 50px;
 }
 
 
@@ -331,11 +325,6 @@ tr {
     margin: auto;
 }
 
-.container1 {
-    display: flex;
-    margin: auto;
-}
-
 div.container img {
     margin: 10px;
     border: 1px solid black;
@@ -343,8 +332,8 @@ div.container img {
 }
 
 div.container :hover {
-    -webkit-transform: scale(1.10);
-    transform: scale(1.10);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 div.rental-icons-grid {
