@@ -251,14 +251,14 @@ section a img:hover {
 /* Contact us */
 
 .contact-us {
-    font-size: 1.2rem;
-    border: 1px solid;
-    background-color: #5e6472;
-    color: white;
-    /*padding: 10px;*/
-    margin: 5px auto;
+    top: 2rem;
+    margin-left: 3rem;
+    background-color: rgb(216, 209, 201);
+    padding: 0rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    line-height: 1.4;
     text-align: center;
-    height: 400px;
 }
 
 div.contact-us-grid {
@@ -266,17 +266,20 @@ div.contact-us-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 10px;
-    background-color: rgb(119, 121, 119);
+    background-color: rgb(216, 209, 201);
+    border: 1px solid grey;
     margin: 0 auto 50px auto;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .contact-us-text {
     padding: 5%;
     text-align: center;
-    color: white;
+    color: rgb(6, 1, 1);
     font-size: 1.0rem;
     padding-top: 50px;
+    font-weight: bolder;
 }
 
 
@@ -316,7 +319,7 @@ tr {
     padding: 20px;
 }
 
-.rental-info h3 {
+.rental-info h2 {
     text-align: center;
 }
 
