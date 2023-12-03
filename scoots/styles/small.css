@@ -325,6 +325,11 @@ tr {
     margin: auto;
 }
 
+.container1 {
+    display: flex;
+    margin: auto;
+}
+
 div.container img {
     margin: 10px;
     border: 1px solid black;
