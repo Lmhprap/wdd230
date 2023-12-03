@@ -25,6 +25,8 @@ footer {
 img {
     max-width: 100%;
     text-align: center;
+    box-shadow: inset 0px 0px 20px 20px #153F65;
+    border-radius: 10px;
 }
 
 
@@ -324,15 +326,20 @@ tr {
     margin: auto;
 }
 
+.container1 {
+    display: flex;
+    margin: auto;
+}
+
 div.container img {
     margin: 10px;
     border: 1px solid black;
     text-align: center;
 }
 
-div.container img :hover {
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
+div.container :hover {
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
 }
 
 div.rental-icons-grid {
@@ -443,7 +450,7 @@ form label.top input:required:valid {
     font-family: sans-serif;
     padding-right: 5px;
     margin-top: 2%;
-    font-size: small;
+    font-size: medium;
     padding-top: 2%;
     padding
 }
