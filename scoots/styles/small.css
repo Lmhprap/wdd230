@@ -25,7 +25,7 @@ footer {
 img {
     max-width: 100%;
     text-align: center;
-    box-shadow: inset 1px 1px 30px 25px #153F65;
+    box-shadow: inset 1px 1px 30px 2px #153F65;
     border-radius: 10px;
 }
 
@@ -271,7 +271,7 @@ div.contact-us-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 10px;
-    background-color: rgb(119, 121, 119);
+    background-color: rgb(63, 64, 63);
     margin: 0 auto 50px auto;
     padding: 20px;
 }
