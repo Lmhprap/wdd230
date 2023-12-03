@@ -22,10 +22,11 @@ footer {
     padding: 0.5rem 2%;
 }
 
-img {
+body {
     max-width: 100%;
     text-align: center;
     border-radius: 10px;
+    background-color: whitesmoke
 }
 
 
@@ -59,11 +60,12 @@ header h1 {
 
 nav button {
     margin: 0.2rem 2%;
-    background-color: transparent;
+    background-color: #153F65;
     border: 3px solid black;
     font-size: 1.2rem;
     color: #fff;
     flex-direction: column;
+    font-weight: bolder;
 }
 
 nav {
@@ -270,7 +272,7 @@ div.contact-us-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 10px;
-    background-color: rgb(126, 127, 126);
+    background-color: rgb(125, 127, 125);
     margin: 0 auto 50px auto;
     padding: 20px;
 }
@@ -278,9 +280,9 @@ div.contact-us-grid {
 .contact-us-text {
     padding: 5%;
     text-align: center;
-    color: white;
-    font-size: 1.0rem;
-    padding-top: 50px;
+    color: rgb(6, 0, 0);
+    font-size: 1.1rem;
+    font-weight: bolder;
 }
 
 
