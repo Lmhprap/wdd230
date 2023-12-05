@@ -1,29 +1,10 @@
-//To hide-uhide toggle button
-
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("hide");
-}
-
-
-//To display current date 
-
-const options = {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-};
-document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
-
-//TO GET CURRENT WEATHER
-//const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=ecc2a14865c0e91eab93612d2db7f58c&units=imperial";
 const apiKey = '409f49352438f14dff06e48ea197cb14';
-const latitude = 20.50038;
-const longitude = -86.94272;
+const latitude = 33.6846;
+const longitude = -117.8265;
 
 const APIurl = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
 
-const forecastGrid = document.getElementById('weatherforecast');
+const forecastGrid = document.getElementById('forecast-grid');
 
 fetch(APIurl)
     .then(response => response.json())
