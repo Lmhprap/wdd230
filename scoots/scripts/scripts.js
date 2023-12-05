@@ -4,6 +4,34 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
+//TO GET CURRENT WEATHER
+//const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=ecc2a14865c0e91eab93612d2db7f58c&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=3530103&units=imperial&APPID=f231a64fe0bf673894728e2e53615a71";
+
+
+
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((weatherInfo) => {
+        //Once it comes back, display it to the console.
+        console.log(weatherInfo);
+
+        //	currently weather
+        document.getElementById("currentWeather").innerHTML = weatherInfo.weather[0].main;
+        //	current temperature
+        document.getElementById("currentTemp").innerHTML = weatherInfo.main.temp.toFixed(1) + " ºF";
+        //	highest temperature
+        //document.getElementById("maxTemp").innerHTML = weatherInfo.main.temp_max.toFixed(1) + " ºF";
+        //	feels like
+        document.getElementById("feelsLike").innerHTML = weatherInfo.main.feels_like.toFixed(1) + " ºF";
+        //	humidity
+        document.getElementById("humidity").innerHTML = weatherInfo.main.humidity.toFixed(1) + "%";
+        //	wind speed
+        document.getElementById("windSpeed").innerHTML = weatherInfo.wind.speed.toFixed(1) + " mph";
+
+    }); //end of "then" fat arrow function
+
+
 
 //To display current date 
 
