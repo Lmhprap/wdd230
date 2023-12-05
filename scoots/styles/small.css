@@ -441,9 +441,9 @@ form label.top input:required:valid {
 /* tours.html */
 
 .tours-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    display: inline-block;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 10%;
     margin-top: 10%;
 }
@@ -454,11 +454,10 @@ form label.top input:required:valid {
     margin-top: 2%;
     font-size: medium;
     padding-top: 2%;
-    padding
 }
 
 .tour-space {
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 
